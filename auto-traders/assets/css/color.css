@@ -1,0 +1,31 @@
+﻿/* ThemeColor Setup */
+
+.cscolor,.cs-hovercolor:hover,/* Footer widget */#footer-sec .widget_categories ul li a:before,#footer-sec .widget_nav_menu ul li a:before,/* WidgetSidebar */.recentblog_post ul li p a,
+.widget_recent_comments ul li:hover a, .widget_recent_entries ul li:hover a, .widget_categories ul > li:hover > a, .widget_nav_menu ul > li:hover > a, .widget_archive ul li:hover a,
+.widget_pages ul > li:hover > a, .widget_meta ul li:hover a,
+.post-options li a.admin-name, .cs-blog .cs-tags i, .cs-blog.blog-lrg .post-options li i, .post-option-panel .post-options li i, blockquote:before, .thumblist li a.comment-reply, .expiry-date i, .ads-in .text .cs_pricesection strong, .pagination li a.active,
+.agent-list .text p span, .grid-filter li.active a i, .cs-agent-filter ul li:hover a, .cs-filter-menu li.active a, .blog-grid .text .read-more,
+.blog-grid article:hover .text h6 a, .page-sidebar .panel-group h6, .page-sidebar .panel-heading a:before, .cs-blog .post-options li a:hover,
+.post-option-panel .post-options li a:hover, .grid-filter li a:hover i, .SumoSelect > .optWrapper > .options > li:hover label, .agent-listing article:hover .content_info h4 a, .list-detail .cs-tags ul li a:hover {
+	color: #ff600a !important;
+}
+
+.cs-bgcolor,.csbg-color,.csbg-hovercolor:hover,.user-signup form input[type="submit"],#copyright .social-media ul li a:hover,.tagcloud a:hover,.widget_calendar caption,.widget_search .cs-search-area input[type="submit"],
+.blog-editor .cs-tags i, .cs-post-sharebtn article .post-np:hover, .cs-blog .main-thumb .jp-play-bar, .tolbtn.close:hover, .cs-agent-filter ul li.our-agents a i, .cs-agent-filter .become-agent, .listNav .ln-letters a:hover, .send-msg,
+.cs-author-sec .right-sec a, .sidebar-search ul li .cs-search-area input[type="submit"], .icon-input a, .add-btn, .prv-nex-pagination a:hover,
+.cs-banner .flex-control-paging li a.flex-active, .promo-box article figure figcaption a, .woocommerce ul.products li.product a.add_to_cart_button, .woocommerce-page ul.products li.product a.add_to_cart_button, .cs-blog .read-more:hover {
+	background-color: #ff600a !important;
+}
+
+.csborder-color,.csborder-hovercolor:hover, .cs-agent-filter ul li:hover a {
+	border-color: #ff600a !important;
+}
+.sub-dropdown {
+	border-top-color: #ff600a !important;
+}
+
+/* Header Color */
+
+.top-bar a { color: #cccccc !important; }
+#footer-sec p,#footer-sec a { color: #c5c5c5 !important; }
+#footer-sec i,#footer-sec strong,#footer-sec h1,#footer-sec h2,#footer-sec h3,#footer-sec h4,#footer-sec h5,#footer-sec h6 { color: #ffffff; }

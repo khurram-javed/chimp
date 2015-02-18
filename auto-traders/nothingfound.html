@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>directory</title>
+
+    <!-- Css (necessary Css) -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="assets/css/language-selector-remove-able-css.css" rel="stylesheet">
+    <link href="assets/css/flexslider.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="assets/css/color.css" rel="stylesheet">
+    <link href="assets/css/jplayer.blue.monday.min.css" rel="stylesheet">
+    <link href="assets/css/iconmoon.css" rel="stylesheet">
+    <link href="assets/css/themetypo.css" rel="stylesheet">
+    <link href="assets/css/widget.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="wrapper">
+      
+      <!-- Header -->
+          <header id="main-header">
+            
+            <div class="top-bar" style="background: #333333;">
+              <div class="container">
+                  <aside class="left-side">
+                    <nav class="top-nav">
+                      <ul>
+                        <li><a href="#">City Events</a></li>
+                        <li><a href="#">Top Events</a></li>
+                        <li><a href="#">Music Events</a></li>
+                        <li><a href="#">Immediate starts</a></li>
+                      </ul>
+                    </nav>
+                  </aside>
+                  <aside class="right-side">
+                    <ul class="location-list">
+                      <li>
+                        <dv class="social-media">
+                          <ul>
+                            <li><a href="#"><i class="icon-facebook7"></i></a></li>
+                            <li><a href="#"><i class="icon-twitter2"></i></a></li>
+                            <li><a href="#"><i class="icon-google-plus"></i></a></li>
+                            <li><a href="#"><i class="icon-linkedin2"></i></a></li>
+                          </ul>
+                        </dv>
+                      </li>
+                      <li>
+                        <div id="lang_sel">
+                            <ul>
+                              <li>
+                                <a class="lang_sel_sel icl-en" href="#">&nbsp;<span class="icl_lang_sel_current">English</span></a>
+                                <ul>
+                                  <li class="icl-fr">          
+                                    <a href="http://edulms.chimpgroup.com/edufuture?lang=fr"><img title="FR" alt="fr" src="http://edulms.chimpgroup.com/edufuture/wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.png" class="iclflag">&nbsp;<span class="icl_lang_sel_current">FRglish</span></a>
+                                  </li>
+                                  <li class="icl-de">          
+                                    <a href="http://edulms.chimpgroup.com/edufuture?lang=de"><img title="DE" alt="de" src="http://edulms.chimpgroup.com/edufuture/wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png" class="iclflag">&nbsp;<span class="icl_lang_sel_current">DEglish</span></a>
+                                  </li>
+                                  <li class="icl-es">          
+                                    <a href="http://edulms.chimpgroup.com/edufuture?lang=es"><img title="SP" alt="es" src="http://edulms.chimpgroup.com/edufuture/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png" class="iclflag">&nbsp;<span class="icl_lang_sel_current">SPglish</span></a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>    
+                          </div>
+                      </li>
+                      <li> <a href="#" data-toggle="modal" data-target="#loginModal"><i class="icon-sign-out"></i> Login / Register</a>
+                        <!-- Modal -->
+                        <div class="modal fade login_modal" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="assets/images/login-close.png" alt=""></span></button></div>
+                              <div class="modal-body">
+                                <h4>User Login</h4>
+                                <form>
+                                  <fieldset>
+                                    <p class="sg-email">
+                                      <span class="iconuser"></span>
+                                      <input type="text" value="Username" onblur="if(this.value == '') { this.value ='Username'; }" onfocus="if(this.value =='Username') { this.value = ''; }" tabindex="12" size="20" name="user_login">
+                                    </p>
+                                    <p class="sg-password">
+                                      <span class="iconepassword"></span>
+                                      <input type="password" value="Password" onblur="if(this.value == '') { this.value ='Password'; }" onfocus="if(this.value =='Password') { this.value = ''; }" tabindex="12" size="20" name="user_pass">
+                                    </p>
+                                    <p> <input type="button" value="Sign in" class="cs-bgcolor" name="user-submit"> </p>
+                                  </fieldset>
+                              </form>
+                              <div class="hd_sepratore"><span></span></div>
+                              <div class="sg-social">
+                                <ul>
+                                  <li><a href="#"><i class="icon-facebook7"></i> Sign in with Facebook</a></li>
+                                  <li><a href="#" data-original-title="twitter"><i class="icon-twitter2"></i> Sign in with Twitter</a></li>
+                                </ul>
+                              </div>
+                              </div>
+                              <div class="modal-footer">
+                                <a href="#" class="left-side">Forgot password?</a>
+                                <p class="right-side">New here? <a href="#"> Sign Up</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </aside>
+              </div>
+            </div>
+    
+            <div class="main-head" style="background: #ffffff;">
+              <div class="container">
+    
+                <div class="logo"><a href="#"><img src="assets/images/logo.png" alt=""></a></div>
+    
+                <div class="right-side">
+                  <nav class="navigation">
+                    <ul>
+                      <li><a href="home.html">Home</a></li>
+                      <li><a href="#">Categories</a>
+                        <ul class="sub-dropdown">
+                          <li><a href="payment.html">payment</a></li>
+                          <li><a href="post-new-ad.html">Post New Ad</a></li>
+                          <li><a href="profilesettings.html">Profile Settings</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Auto Detail</a>
+                        <ul class="sub-dropdown">
+                          <li><a href="#">Gallery</a>
+                            <ul class="sub-dropdown">
+                              <li><a href="#">Gallery</a></li>
+                              <li><a href="#">Columns</a></li>
+                              <li><a href="#">Button&List </a></li>
+                              <li><a href="#">Typography</a></li>
+                              <li><a href="#">Widgets</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#">Accomodtion</a></li>
+                          <li><a href="#">Button&List </a></li>
+                          <li><a href="#">List</a>
+                            <ul class="sub-dropdown">
+                              <li><a href="#">listing</a></li>
+                              <li><a href="#">Listing Detail</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="nothingfound.html">Nothing Found</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">List</a>
+                        <ul class="sub-dropdown">
+                          <li><a href="listing.html">listing</a></li>
+                          <li><a href="listing-detail.html">Listing Detail</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Agents</a>
+                        <ul class="sub-dropdown">
+                          <li><a href="agent.html">Agent</a></li>
+                          <li><a href="agent-detail.html">Agent Detail</a></li>
+                          <li><a href="agent-detail2.html">Agent Detail2</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Blog</a>
+                        <ul class="sub-dropdown">
+                          <li><a href="blog.html">Blog</a></li>
+                          <li><a href="blogdetail.html">Blog Detail</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Contact us</a></li>
+                    </ul>
+                  </nav>
+                </div>
+    
+              </div>
+            </div>
+    
+          </header>
+      <!-- Header -->
+
+      <!-- Sub Header -->
+      
+      <!-- Main Content -->
+      <main id="main-content">
+        <!-- Main Section Start -->
+        <div class="main-section">  
+          <!-- PageSection -->
+          <section class="page-section">
+            <!-- Container -->
+            <div class="container">
+              <!-- Row -->
+              <div class="row">            
+                <aside class="page-sidebar profile-bar">
+                 <article class="st-userinfo">
+                   <div class="cs-auther">
+                      <figure>
+                         <a class="info-thumb"><img class="avatar avatar-60 photo" src="assets/extra-images/auther-img1.png" alt="#"></a>
+                      </figure>
+                      <div class="text">
+                          <h6>Adam Motors</h6>
+                          <span><i class="icon-location6"></i>Hinckley, Leicestershire </span>
+                      </div>
+                  </div>
+                  <!-- Nav Assigment -->
+                   
+                      <!-- Nav Assigment -->
+                 </article>
+                 <nav class="cs_profile_tabs">
+                      <ul class="cs-user-menu">
+                          <li>
+                              <a href="add.html"><i class="icon-star-o"></i>My Adds</a>
+                          </li>
+                          <li>
+                             <a href="saved.html"><i class="icon-save"></i>Saved Ads</a>
+                          </li>
+                          <li>
+                               <a href="payment.html"><i class="icon-folder-open"></i>Payments</a>             
+                          </li>
+                          <li class="active">
+                              <a href="#"><i class="icon-thumbs-up"></i>Reviews</a>
+                          </li>
+                          <li>
+                              <a href="profilesettings.html"><i class="icon-gear"></i>Profile Settings</a>
+                          </li>
+                               <li class="cs-user-logout"><a href="#"><i class="icon-sign-out"></i>Logout </a>
+                          </li> 
+                          </ul>
+                      </nav>
+                  <div class="post-new-add csbg-color">
+                      <i class=" icon-plus-circle"></i> 
+                      <a href="#">Post a new ad</a>
+                  </div>
+             </aside>
+           <div class="page-content">
+              <section class="page-section">
+               <div class="container">
+                <div class="row">
+                  <div class="section-fullwidth">
+                    <div class="element-size-100 ">
+                        <div class="profile-block">
+                          <div class="cs-profile-area">
+                          <div class="cs-profile-holder">
+                            <ul class="cs-element-list cs-submit-form cs-add-post">
+                                  <li>
+                                    <span><i class="icon-cross3"></i>You don't have Any Ads</span>
+                                    <div class="cs-arrowbtn">
+                                      <i class="icon-plus-circle"></i>
+                                      <input type="submit" value="Post a new ad" class="csbg-color">
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                            <div class="cs-title">
+                              <a class="clear-btn" href="#">Clear all favorites</a>
+                              <h4>Saved Ads <span>(239)</span></h4>
+                            </div>
+                            <div class="cs-profile-holder">
+                              <div class="cs-ads-area">
+                                <article class="cs-ads-post saved">
+                                  <a href="#" class="close-btn"><span>Unfavourite</span></a>
+                                  <figure>
+                                    <a href="#"><img alt="" src="assets/extra-images/add-list1.jpg"></a>
+                                    <a href="#" class="img-tag">22</a>
+                                  </figure>
+                                  <div class="detail-area">
+                                    <div class="ads-title">
+                                      <div class="text">
+                                        <h5><a href="#">Volkswagen Passat CC 2.0TDI BlueMotion Tech CC</a></h5>
+                                        <ul class="post-details">
+                                          <li><i class="icon-user9"></i> Mike Anderson</li>
+                                          <li><i class="icon-clock7"></i> 3 days ago</li>
+                                          <li><i class="icon-map-marker"></i> New Wales, Leicestershire </li>
+                                        </ul>
+                                        <span class="price-row">
+                                          <!-- <strong class="feature-tag">Feature</strong> -->
+                                          <span class="price"><span>Price: </span>£10,500</span>
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </article>
+                                <article class="cs-ads-post saved">
+                                  <a href="#" class="close-btn"><span>Unfavourite</span></a>
+                                  <figure>
+                                    <a href="#"><img alt="" src="assets/extra-images/add-list1.jpg"></a>
+                                    <a href="#" class="img-tag">22</a>
+                                  </figure>
+                                  <div class="detail-area">
+                                    <div class="ads-title">
+                                      <div class="text">
+                                        <h5><a href="#">Volkswagen Passat CC 2.0TDI BlueMotion Tech CC</a></h5>
+                                        <ul class="post-details">
+                                          <li><i class="icon-user9"></i> Mike Anderson</li>
+                                          <li><i class="icon-clock7"></i> 3 days ago</li>
+                                          <li><i class="icon-map-marker"></i> New Wales, Leicestershire </li>
+                                        </ul>
+                                        <span class="price-row">
+                                          <!-- <strong class="feature-tag">Feature</strong> -->
+                                          <span class="price"><span>Price: </span>£10,500</span>
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </article>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </section>
+              </div>
+          </div>
+      </div>
+    </section>            
+  <!-- Main Section End -->
+  </div>
+</main>
+<!-- Main Content -->
+<div class="clear"></div>
+<!--// NewsLatter Section //-->
+      <section id="newslatter-sec">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="user-signup">
+                <span class="news-title">Join BoxTheme Newsletter be always Up to Date</span>
+                <form>
+                  <fieldset>
+                    <i class="icon-envelope-o"></i>
+                    <label><input type="text" onfocus="if(this.value =='Enter Your Valid Email Address') { this.value = ''; }" onblur="if(this.value == '') { this.value ='Enter Your Valid Email Address'; }" value="Enter Your Valid Email Address"> </label>
+                    <input type="submit" value="Submit" name="submit">
+                    <!-- <div id="process_1"><div id="process_newsletter_1"><i class="icon-refresh icon-spin"></i></div></div> -->
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--// NewsLatter Section //-->
+
+      <!--// Footer Widget //-->
+      <footer id="footer-sec">
+        <div class="container">
+          <div class="row">
+            <aside class="col-md-4 widget widget_text">
+              <div class="cont-info-address"> <a class="footer-logo" href="#"><img src="assets/images/footer-logo.png" alt=""></a> <p>© Box Autotraders Limited 2015 Registered in England No. 123456789</p></div>
+              <ul>
+                <li> <strong>Registered office</strong> </li>
+                <li><i class="icon-map-marker"></i><p>A123 London Bridge Street, 123 London, AB1 234</p></li>
+                <li><i class="icon-phone8"></i><p>Call: (800) 123 456 7</p></li>
+                <li><i class="icon-envelope4"></i><p><a href="mailto: jondon@ChimpDesigns.com"> Email: info@boxauto.com</a></p></li>
+              </ul>
+            </aside>
+            <aside class="widget col-md-4 widget_categories">
+              <div class="widget-section-title"> <h2>Compay Information</h2> </div>
+              <ul>
+                <li><a href="#">Company Information</a></li>
+                <li><a href="#">Shop for a Car</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Browse Cars for Sale</a></li>
+                <li><a href="#">Press Room</a></li>
+                <li><a href="#">Car Deals</a></li>
+                <li><a href="#">Standard Post</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Trade or Sell a Car</a></li>
+                <li><a href="#">Press Room</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Trade or Sell a Car</a></li>
+                <li><a href="#">Press Room</a></li>
+              </ul>
+            </aside>
+            <aside class="widget col-md-4 widget_nav_menu">
+              <div class="widget-section-title"> <h2>Helpfull Links</h2> </div>
+              <ul>
+                <li><a href="#">Company Information</a></li>
+                <li><a href="#">Shop for a Car</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Browse Cars for Sale</a></li>
+                <li><a href="#">Press Room</a></li>
+                <li><a href="#">Car Deals</a></li>
+                <li><a href="#">Standard Post</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Trade or Sell a Car</a></li>
+                <li><a href="#">Press Room</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Trade or Sell a Car</a></li>
+                <li><a href="#">Press Room</a></li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </footer>
+      <!--// Footer Widget //-->
+
+      <!--// CopyRight //-->
+      <section id="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="footer_icon"><a href="#"><img src="assets/images/copyright-logo.png" alt=""></a></div>
+              <nav class="footer-nav">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Categories</a></li>
+                  <li><a href="#">Showrooms</a></li>
+                  <li><a href="#">Agents</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact us</a></li>
+                </ul>
+              </nav>
+              <p>©2014 Box Theme All rights reserved. Design by <a href="#">Chimp Studio</a></p>
+            </div>
+            <div class="col-md-6">
+              <div class="social-media">
+                <ul>
+                  <li><a href="#"><i class="icon-facebook7"></i></a></li>
+                  <li><a href="#"><i class="icon-twitter6"></i></a></li>
+                  <li><a href="#"><i class="icon-googleplus7"></i></a></li>
+                  <li><a href="#"><i class="icon-instagram4"></i></a></li>
+                  <li><a href="#"><i class="icon-youtube-play"></i></a></li>
+                  <li><a href="#"><i class="icon-skype"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--// CopyRight //-->
+
+</div>
+
+    <!-- jQuery (necessary JavaScript) -->
+    
+    <script src="assets/scripts/jquery.js"></script>
+    <script src="assets/scripts/bootstrap.min.js"></script>
+    <script src="assets/scripts/modernizr.js"></script>
+    <script src="assets/scripts/jquery.flexslider-min.js"></script>
+    <script src="assets/scripts/jquery.jplayer.min.js"></script>
+    <script src="assets/scripts/functions.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        jQuery('.tolbtn').tooltip('hide');
+        jQuery('.tolbtn').popover('hide')
+      });
+    </script>
+    
+  </body>
+</html>
