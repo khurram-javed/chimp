@@ -3338,7 +3338,7 @@ a.send-msg i {
 	padding-right: 45px;
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 }
-.about-info .right-info p:before, .cs-auther .text p:before {
+.about-info .right-info p a:before, .cs-auther .text p:before {
 	bottom: -8px;
     content: "";
     height: 42px;
@@ -5950,7 +5950,6 @@ a.send-msg i {
 	font-weight: 400;
 	text-transform: capitalize;
 }
-<<<<<<< HEAD
 
 /* Team Style */
 .cs-team figure {
@@ -6061,11 +6060,10 @@ a.send-msg i {
     float: none;
     margin: 0;
 } 
-=======
 /*author detail*/
 .evorgnizer figure {
     float: left;
     margin: 0 15px 0 0;
     width: 70px;
 }
->>>>>>> 48a03a02fff0e4d31b939fe4ba51925b5a28f27f
+
