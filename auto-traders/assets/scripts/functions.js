@@ -15,4 +15,13 @@
 				jQuery(this).parents('.SumoSelect').find('i').hide();
 			}
 		});
+
+		//Phone Number Hide and Show
+		jQuery('.agentdetail-info .right-info').on('click', 'p a', function(e){
+			e.preventDefault();
+
+			var val = jQuery(this).siblings('span').attr('data-phone');
+			jQuery(this).siblings('span').html(val);
+			
+		});
 	});
