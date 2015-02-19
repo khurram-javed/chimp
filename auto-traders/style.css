@@ -5502,33 +5502,36 @@ border-left:1px solid #e5e5e5;
 }
 
 /*Recent Blog Style*/
-.post-recent {
+.cs-post-recent {
 	background-color: #fff;
 	width: 100%;
 	float: left;
 	margin: 0 0 10px 0;
 	padding: 10px 0 0;
 }
-.post-recent .post-options li time {
+.cs-post-recent .cs-blog-post {
+	padding: 0 20px;
+}
+.blog-grid .post-options li time {
 	color: #aaaaaa;
     font-size: 11px;
     text-transform: uppercase;
 }
-.post-recent .cs-blog.blog-grid .post-options {
+.cs-blog.blog-grid .post-options {
 	margin-bottom: 0;
 }
-.post-recent .cs-blog .bloginfo-sec p {
+.cs-blog.blog-grid .bloginfo-sec p {
 	margin: 0 0 10px;
 }
-.post-recent .cs-blog .main-thumb {
+.cs-blog.blog-grid .main-thumb {
 	margin-bottom: 15px;
 }
-.post-recent .post-thumb ul li {
+.cs-blog.blog-grid .post-thumb ul li {
 	color: #999;
     float: left;
 	list-style: none;
 }
-.post-recent .post-thumb ul li a {
+.cs-blog.blog-grid .post-thumb ul li a {
 	color: #ff600a;
 }
 
