@@ -6,7 +6,7 @@
 .post-options li a.admin-name, .cs-blog .cs-tags i, .cs-blog.blog-lrg .post-options li i, .post-option-panel .post-options li i, blockquote:before, .thumblist li a.comment-reply, .expiry-date i, .ads-in .text .cs_pricesection strong, .pagination li a.active,
 .agent-list .text p span, .grid-filter li.active a i, .cs-agent-filter ul li:hover a, .cs-filter-menu li.active a, .blog-grid .text .read-more,
 .blog-grid article:hover .text h6 a, .page-sidebar .panel-group h6, .page-sidebar .panel-heading a:before, .cs-blog .post-options li a:hover,
-.post-option-panel .post-options li a:hover, .grid-filter li a:hover i, .SumoSelect > .optWrapper > .options > li:hover label, .agent-listing article:hover .content_info h4 a, .list-detail .cs-tags ul li a:hover, .search-results h5, .search-results ul li:before, .relevant-search ul li a, .site-map-links h5, .site-map-links ul li:before, .cs-price .inner-sec {
+.post-option-panel .post-options li a:hover, .grid-filter li a:hover i, .SumoSelect > .optWrapper > .options > li:hover label, .agent-listing article:hover .content_info h4 a, .list-detail .cs-tags ul li a:hover, .search-results h5, .search-results ul li:before, .relevant-search ul li a, .site-map-links h5, .site-map-links ul li:before, .cs-price .inner-sec, .cs-blog:hover .bloginfo-sec h2 a, .cs-post-sharebtn .cs-cell h5:hover a {
 	color: #ff600a !important;
 }
 
