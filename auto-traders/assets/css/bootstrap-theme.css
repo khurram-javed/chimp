@@ -481,7 +481,10 @@
 .widget_nav_menu ul li a,
 .widget_archive ul li a,
 .widget_pages ul li a,
-.widget_meta ul li a {
+.widget_meta ul li a,
+.read-more:hover, 
+.cs-portfoliolist figcaption,
+.cs-portfoliolist ul li:hover figcaption .text {
   -webkit-transition: all 0.3s ease-in;
      -moz-transition: all 0.3s ease-in;
       -ms-transition: all 0.3s ease-in;
