@@ -5949,3 +5949,113 @@ border-left:1px solid #e5e5e5;
 	font-weight: 400;
 	text-transform: capitalize;
 }
+
+/* Team Style */
+.cs-team figure {
+	margin: 0;
+	position: relative;
+}
+.cs-team figure:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	opacity: 0;
+	background: rgba(255,96,10,0.5);
+}
+.cs-team:hover figure:before {
+	opacity: 1;
+}
+.cs-team figure, .cs-team .text, .cs-team .post-option {
+	width: 100%;
+	float: left;
+}
+.cs-team .text {
+	border: 1px solid #cbcbcb;
+	border-top: none;
+	background-color: #fff;
+	text-align: center;
+	padding: 15px 0 10px 0;
+}
+.cs-team .text .cs-post-title {
+	font-size: 16px;
+	font-weight: 600;
+	margin: 0;
+	text-transform: uppercase;
+}
+.cs-team .text .cs-post-title a {
+	color: #3333;
+}
+.cs-team .post-option {
+	margin: 0 0 5px 0;
+}
+.cs-team .post-option li {
+	list-style: none;
+}
+.cs-team .social-media li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px 0 0;
+}
+.cs-team .social-media li a i {
+	font-size: 20px;
+	color: #cbcbcb;
+}
+.cs-team .social-media li a:hover i {
+	color: #03b4ea;
+}
+
+/* Team Simple Style */
+.cs-team.simple figure {
+	border: 7px solid #fff;
+}
+.cs-team.simple .text {
+	background-color: inherit;
+	text-align: left;
+	border: none;
+}
+.cs-team.simple .post-option {
+	padding: 0 0 5px;
+	border-bottom: 1px solid #d7d7d7;
+}
+.cs-team.simple p {
+	color: #333;
+}
+.cs-team.simple .social-media li a {
+	background-color: #cbcbcb;
+	float: left;
+	padding: 3px 8px 0;
+}
+.cs-team.simple .social-media li a i {
+	color: #fff;
+	font-size: 16px;
+}
+.cs-team.simple .social-media li a:hover {
+	background-color: #03b4ea;
+}
+
+/* Partner Style */
+.cs-partner.has_border {
+	border: 1px solid #e2e2e2;
+	border-top: none;
+	border-left: none;
+}
+.cs-partner.has_border > ul {
+    margin: 0 0 0 -3px;
+}
+.cs-partner.has_border ul li {
+	margin-bottom: 0;
+	border: 1px solid #e2e2e2;
+	border-bottom: none;
+	border-right: none;
+	text-align: center;
+	padding-bottom: 10px;
+    padding-top: 20px;
+}
+.cs-partner ul li figure {
+	display: inline-block;
+    float: none;
+    margin: 0;
+} 
