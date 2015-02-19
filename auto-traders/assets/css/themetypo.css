@@ -236,6 +236,7 @@ form p span i {
 	display: inline-block;
 	margin: 0 -4px 35px 0;
 	vertical-align: top;
+	float: none;
 }
 /*HACK FOR GRID*/
 .wrapper.wrapper_boxed {
