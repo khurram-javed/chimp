@@ -5950,7 +5950,6 @@ a.send-msg i {
 	font-weight: 400;
 	text-transform: capitalize;
 }
-<<<<<<< HEAD
 
 /* Team Style */
 .cs-team figure {
@@ -6061,11 +6060,9 @@ a.send-msg i {
     float: none;
     margin: 0;
 } 
-=======
 /*author detail*/
 .evorgnizer figure {
     float: left;
     margin: 0 15px 0 0;
     width: 70px;
 }
->>>>>>> 48a03a02fff0e4d31b939fe4ba51925b5a28f27f
