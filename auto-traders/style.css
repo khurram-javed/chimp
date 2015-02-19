@@ -3032,7 +3032,7 @@ ul.cs-form-element {
 .grid_listing article {
 	margin-bottom: 20px;
 	position: relative;
-	margin-right: 0;
+	/*margin-right: 0;*/
 }
 .cs-filterable figure,
 .grid_listing figure {
@@ -3073,7 +3073,7 @@ ul.cs-form-element {
 	background:#fff;
 	padding:10px;
 	margin:0;
-	width:32.5%;
+	width:31.9%;
 	margin:0 0 0 10px;
 }
 .grid_listing .grid figure{
@@ -3350,7 +3350,7 @@ a.send-msg i {
 }
 .entry-content .grid_listing article {
 	padding-top: 0;
-	margin-right: 0;
+	/*margin-right: 0;*/
 }
 .entry-content .grid_listing figure img {
 	border: none;
@@ -5099,8 +5099,9 @@ a.send-msg i {
 	color:#ff600a;
 	margin: -1px -4px 0 0;
 }
-.cs-pagination li:nth-child(2) a{
-border-left:1px solid #e5e5e5;
+.cs-pagination li.prev + li:nth-child(2) a,
+.cs-pagination li.active:first-child a{
+	border-left:1px solid #e5e5e5;
 }
 .cs-main-heading{
 	overflow: hidden;
@@ -5949,6 +5950,7 @@ border-left:1px solid #e5e5e5;
 	font-weight: 400;
 	text-transform: capitalize;
 }
+<<<<<<< HEAD
 
 /* Team Style */
 .cs-team figure {
@@ -6059,3 +6061,11 @@ border-left:1px solid #e5e5e5;
     float: none;
     margin: 0;
 } 
+=======
+/*author detail*/
+.evorgnizer figure {
+    float: left;
+    margin: 0 15px 0 0;
+    width: 70px;
+}
+>>>>>>> 48a03a02fff0e4d31b939fe4ba51925b5a28f27f

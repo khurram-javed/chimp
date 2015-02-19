@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Campaigs</title>
+
+<!-- Css (necessary Css) -->
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/bootstrap-theme.css" rel="stylesheet">
+<link href="assets/css/language-selector-remove-able-css.css" rel="stylesheet">
+<link href="assets/css/flexslider.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<link href="assets/css/color.css" rel="stylesheet">
+<link href="assets/css/iconmoon.css" rel="stylesheet">
+<link href="assets/css/themetypo.css" rel="stylesheet">
+<link href="assets/css/widget.css" rel="stylesheet">
+<link href="assets/css/sumoselect.css" rel="stylesheet">
+
+<!-- jQuery (necessary JavaScript) --> 
+<script src="assets/scripts/jquery.js"></script> 
+<script src="assets/scripts/bootstrap.min.js"></script> 
+<script src="assets/scripts/modernizr.js"></script> 
+<script src="assets/scripts/jquery.flexslider-min.js"></script> 
+<script src="assets/scripts/functions.js"></script>
+<script src="assets/scripts/masonary.js"></script>
+<script src="assets/scripts/jquery.sumoselect.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(e) {
+		var $container = $('.masonary-sec');
+		$container.masonry({
+			gutter: 10,
+			itemSelector: '.post-854'
+		});
+		$('.sumoselect').SumoSelect();
+	});
+</script>
+<script >
+	jQuery(window).load(function(){
+		jQuery('.flexslider').flexslider({
+			animation: "slide",
+			controlNav: false,
+			prevText:"<em class='icon-arrow-left10'></em>",
+			nextText:"<em class='icon-arrow-right10'></em>",
+			start: function(slider){
+				jQuery('body').removeClass('loading');
+			}
+		});
+	});
+</script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="wrapper"> 
+	
+	<!-- Header -->
+	<header id="main-header">
+		<div class="main-head">
+			<div class="left-side">
+				<div class="logo"><a href="#"><img src="assets/images/logo.png" alt=""></a></div>
+				<nav class="navigation">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#">Fundraising Ideas</a></li>
+						<li><a href="#">User Profiles</a>
+							<ul class="sub-dropdown">
+								<li><a href="causes.html">Causes User</a></li>
+								<li><a href="create-new-cause.html">Create New Cause</a></li>
+								<li> <a href="donation.html">Donation</a></li>
+								<li><a href="my-donation.html">My Donation</a></li>
+								<li><a href="profilesetting.html">Profile Setting</a></li>
+								<li><a href="saved.html">Saved</a></li>
+								<li><a href="user-detail.html">User Detail</a></li>
+								<li><a href="user-listing.html">User Listing</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Causes</a>
+							<ul class="sub-dropdown">
+								<li><a href="listing.html">Causes</a></li>
+								<li><a href="detail.html">Causes Detail</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Pages</a>
+							<ul class="sub-dropdown">
+								<li><a href="widget.html">Widget</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Blog</a>
+							<div class="sub-dropdown">
+								<ul>
+									<li><a href="bloglrag.html">Blog Large</a></li>
+									<li><a href="blogmedium.html">Blog Medium</a></li>
+									<li><a href="blogmasnery.html">Blog Masnery</a>
+									<li><a href="blogdetail.html">Blog Detail</a></li>
+									<li><a href="blogdetail1.html">Slider post</a></li>
+								</ul>
+						   </div>
+						</li>
+						<li><a href="#">Success Stories</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="right-side">
+				<div class="cs-search-block">
+					<form role="search" action="#" method="get">
+						<input type="text" id="s" name="s" value="Search Project" onfocus="if(this.value =='Search Project') { this.value = ''; }" onblur="if(this.value == '') { this.value ='Search Project'; }" class="form-control">
+						<label>
+							<input type="submit" value="Search">
+						</label>
+					</form>
+				</div>
+				<a href="#" class="signin-btn csborder-color cscolor" data-target="#cs_ad_post_modal" data-toggle="modal">Sign in</a> 
+				<div class="modal fade add-to-favborites-modal in" id="cs_ad_post_modal" tabindex="-1" role="dialog" aria-hidden="true">
+                	<div class="modal-dialog">
+                    	<div class="modal-content">
+                        <div class="modal-body">
+                         	         <div class="cs-login-favorites  afterlogin"> 
+          <!--<script>
+			jQuery(document).ready(function(){
+				jQuery('#ControlForm_614210 input').keydown(function(e) {
+				if (e.keyCode == 13) {
+					cs_user_authentication('http://directory.chimpgroup.com/wp-admin/admin-ajax.php','614210');
+				}
+			});
+			jQuery("#cs-signup-form-section-favorites-614210").hide();
+			jQuery("#accout-already-favorites-614210").hide();
+			  jQuery("#signup-now-favorites-614210").click(function(){
+				jQuery("#login-from-614210").hide();
+				jQuery("#signup-now-favorites-614210").hide();
+				jQuery("#cs-signup-form-section-favorites-614210").show();
+				jQuery("#accout-already-favorites-614210").show();
+			  });
+			  jQuery("#accout-already-favorites-614210").click(function(){
+				jQuery("#login-from-614210").show();
+				jQuery("#signup-now-favorites-614210").show();
+				jQuery("#cs-signup-form-section-favorites-614210").hide();
+				jQuery("#accout-already-favorites-614210").hide();
+			  });
+			});
+		 </script>-->	 
+		  <section class="sg-header ">
+          <button type="button" class="close" data-dismiss="modal">
+            <span aria-hidden="true"><i class="icon-cross3"></i></span><span class="sr-only">Close</span>
+          </button>
+		  <div id="login-from-614210" class="header-element login-from login-form-id-614210">
+              
+          	<h2>User Login</h2>
+          	<form id="ControlForm_614210" class="wp-user-form webkit" method="post">
+			<fieldset>
+			  <span style="display:none" class="status status-message"></span> 
+			  <p class="sg-email">
+				<span class="icon-envelope-o"></span>
+				<input type="text" value="Email" onblur="if(this.value == '') { this.value ='Username'; }" onfocus="if(this.value =='Username') { this.value = ''; }" tabindex="12" size="20" name="user_login">
+			  </p>
+			  <p class="sg-password">
+				<span class="icon-lock6"></span>
+				<input type="password" value="Password" onblur="if(this.value == '') { this.value ='Password'; }" onfocus="if(this.value =='Password') { this.value = ''; }" tabindex="12" size="20" name="user_pass">
+				
+			  </p>
+			  
+			  <p>
+				<!--<i class="icon-angle-right"></i>-->
+				<input type="button" onclick="javascript:cs_user_authentication('http://directory.chimpgroup.com/wp-admin/admin-ajax.php','614210')" value="Sign in" class="cs-bgcolor" name="user-submit">
+				<input type="hidden" value="http://directory.chimpgroup.com/typography/" name="redirect_to">
+                                <input type="hidden" value="1" name="redirect_to_ad">
+                				<input type="hidden" value="1" name="user-cookie">
+				<input type="hidden" name="action" value="ajax_login">
+				<input type="hidden" value="login" name="login">
+			 </p>
+			</fieldset>
+		  </form>
+		  </div>
+		  
+		  <div style="display:none" id="cs-signup-form-section-favorites-614210" class="user-sign-up">
+			<h6>User Sign Up</h6>
+			<form enctype="multipart/form-data" id="wp_signup_form_614210" class="wp-user-form" method="post">
+			<fieldset>
+			   <div class="status-message" id="result_614210"><p class="status"></p></div>
+			  <p class="sg-email">
+				<span class="icon-envelope-o"></span>
+				<input type="text" value="Email" onblur="if(this.value == '') { this.value ='Username'; }" onfocus="if(this.value =='Username') { this.value = ''; }" tabindex="12" size="20" name="user_login">
+			  </p>
+			  <p class="sg-password">
+				<span class="iconemail"></span>
+				<input type="email" value="Password" onblur="if(this.value == '') { this.value ='E-mail address'; }" onfocus="if(this.value =='E-mail address') { this.value = ''; }" tabindex="12" size="20" name="user_email">
+				
+			  </p>
+			  <p>
+				<i class="icon-angle-right"></i>
+				 				<input type="button" onclick="javascript:cs_registration_validation('http://directory.chimpgroup.com/wp-admin/admin-ajax.php','614210')" class="cs-bgcolor" value="Sign Up" name="user-submit">
+				
+				<input type="hidden" value="member" name="role">
+				<input type="hidden" value="cs_registration_validation" name="action">
+			 </p>
+			</fieldset>
+		  </form>
+		  </div>
+		                <!--<div class="hd_sepratore"><span>OR</span></div>-->
+              <div class="footer-element comment-form-social-connect social_login_ui ">
+              <div class="social_login_facebook_auth">
+                <input type="hidden" value="744120872337074" name="client_id">
+                <input type="hidden" value="http://directory.chimpgroup.com/index.php?social-login=facebook-callback" name="redirect_uri">
+              </div>
+              <div class="social_login_twitter_auth">
+                <input type="hidden" value="ghnkXI0p6BtyBMM8puLJZa73L" name="client_id">
+                <input type="hidden" value="http://directory.chimpgroup.com/index.php?social-login=twitter" name="redirect_uri">
+              </div>
+              <div class="social_login_google_auth">
+                <input type="hidden" value="965431802636-tfsn47ou2jh6jetrm58krqba2gl3o04h.apps.googleusercontent.com" name="client_id">
+                <input type="hidden" value="http://directory.chimpgroup.com/wp-login.php?loginGoogle=1" name="redirect_uri">
+              </div>
+              <div class="sg-social">
+                  <ul>	 
+                  <li><a class="social_login_login_facebook" data-original-title="Facebook" id="cs-social-login-haVr1fb" title="Facebook" href="javascript:void(0);"><span style="display:none" class="social-mess-top fb-social-login">Please set API key</span><i class="icon-facebook2"></i>Sign in with Facebook</a></li>
+				  <li><a class="social_login_login_twitter" data-original-title="twitter" id="cs-social-login-haVr1tw" title="Twitter" href="javascript:void(0);"><span style="display:none" class="social-mess-top tw-social-login">Please set API key</span><i class="icon-twitter6"></i>Sign in with Twitter</a></li>
+				 <!-- <li><a class="social_login_login_google" data-original-title="google-plus" id="cs-social-login-haVr1gp" title="google-plus" rel="nofollow" href="javascript:void(0);"><span style="display:none" class="social-mess-top gplus-social-login">Please set API key</span><i class="icon-google-plus"></i>Sign in with Google Plus</a></li> -->
+                 </ul> 
+              </div>
+            </div>
+    		<!-- End of social_login_ui div -->
+			</section>
+		  <aside class="sg-footer">
+		  <a class="left-side" href="http://directory.chimpgroup.com/wp-login.php?action=lostpassword">Forget Password?</a>
+							   <p class="right-side" id="signup-now-favorites-614210">New here? <a href="#">Sign Up</a></p>
+				   <p class="right-side" id="accout-already-favorites-614210" style="display: none;">Have Account? <a style="font-size:12px;" href="#">Sign In </a></p>
+					</aside>
+        </div>
+                         </div>
+                    </div>
+                </div>
+			</div>
+				<a href="#" class="free-btn">Start for Free</a>
+			</div>
+				
+		</div>
+	</header>
+	<!-- Header --> 
+	<div class="breadcrumb-sec" style="background:url(assets/images/bg-signup.jpg) no-repeat; background-size:100% auto; min-height:157px!important; padding-top:38px; padding-bottom:38px; ">
+		<div class="absolute-sec">
+			<div class="container">
+				<div class="cs-table">
+					<div class="cs-tablerow">
+						<div class="pageinfo page-title-align-left">
+							<h1 style="color:#fff !important; text-transform:none;">Active Members</h1>
+							<strong style="text-align:center; display:block; color:#fff; font-weight:normal;" class="title">People just like you have used Razoo to create more than 90,000 fundraising websites.</strong>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Main Content -->
+	<main id="main-content">
+		<div class="main-section">
+			<section class="page-section">
+				<div class="container">
+					<div class="row">
+						<aside class="page-sidebar">
+							<div class="widget-customize element-size-100 widget_cause">
+								<div class="widget-section-title">
+									<h4>Cause Phase</h4>
+								</div>
+								<div class="cs-search-area">
+									<form action="">
+										<fieldset>
+											<input type="text" placeholder="Name">
+											<input type="email" placeholder="Email">
+											<textarea placeholder="Message"></textarea>
+											<input type="submit" class="cs-btn" value="Submit Message">
+										</fieldset>
+									</form>
+								</div>
+							</div>
+							<div class="widget-customize element-size-100 widget_timings">
+								<div class="widget-section-title">
+									<h4>Contact Timings</h4>
+								</div>
+								<ul>
+									<li><a href="#">Monday</a> 10:00 ~ 20:00</li>
+									<li><a href="#">Monday</a> 10:00 ~ 20:00</li>
+									<li><a href="#">Monday</a> 10:00 ~ 20:00</li>
+									<li><a href="#">Monday</a> 10:00 ~ 20:00</li>
+									<li><a href="#">Monday</a> 10:00 ~ 20:00</li>
+									<li><a href="#">Monday</a> 10:00 ~ 20:00</li>
+									<li><a href="#">Monday</a> 10:00 ~ 20:00</li>
+								</ul>
+							</div>
+							
+						</aside>
+						<div class="page-content">
+							<div class="col-md-12">
+								<div class="memberinfo-detail">
+									<div class="about-info">
+										<figure>
+											<a class="info-thumb" href="#"><img alt="" src="assets/extra-images/img-testi.png"></a>
+										</figure>
+										<div class="agentdetail-info">
+											<div class="left-info">
+												<a style="display:none" href="javascript:void(0)">James Warsom</a>
+												<h2>James Warsom</h2>
+												<span class="by">Member Since September 3, 2015</span>
+											</div>
+											<div class="right-info">
+												<span class="location"><i class="cscolor icon-map-marker"></i>Newyork, United States</span>
+												<div class="social-media">
+													<ul>
+														<li><a href="http://www.facebook.com" data-original-title="facebook"><i class="icon-facebook9"></i></a></li>
+														<li><a href="http://www.twitter.com" data-original-title="twitter"><i class="icon-twitter2"></i></a></li>
+														<li><a href="http://www.linkedin.com" data-original-title="envelope"><i class="icon-instagram4"></i></a></li>
+														<li><a href="http://www.pinterest.com" data-original-title="fax"><i class="icon-skype3"></i></a></li> 
+													</ul>
+												</div>
+												<span class="category-list"><span>Donation Colected</span> $84,000</span>
+											</div>
+										</div>
+									</div>
+									<div class="about-detail">
+										<p>That sneered vivaciously that thus hey porpoise uncritical gosh and much and this haughtily broadcast goodness ponderous squid darn in sheepish yet the slapped mildly and adventurously sincere less dalmatian assentingly wherever left ethereal the underneath oh lustily arduously that a groggily some vexedly broadcast sheepish. That sneered vivaciously that thus hey porpoise uncritical gosh and much and this haughtily broadcast goodness ponderous squid darn in sheepish yet the slapped mildly and adventurously sincere less dalmatian assentingly wherever left ethereal the underneath oh lustily arduously that a groggily some vexedly broadcast sheepish. That sneered vivaciously that thus hey porpoise uncritical gosh and much and this haughtily broadcast goodness ponderous squid darn in sheepish yet the slapped mildly and adventurously sincere less dalmatian assentingly wherever left ethereal the underneath oh lustily arduously that a groggily some vexedly broadcast sheepish.</p>
+									</div>
+								</div>
+							</div>
+							<div class="listing_default">
+								<article class="col-md-12">
+									<div class="directory-section">
+										<div class="cs_thumbsection">
+											<figure><a href="#"><img src="assets/extra-images/img.jpg" alt=""></a></figure>
+										</div>
+										<div class="content_info">
+											<div class="title">
+												<h3><a href="#">We Are Cove Point - Stop Gas Export Plant</a></h3>
+												<span class="addr">214 Greene Avenue</span> 
+												<p>That sneered vivaciously that thus hey porpoise uncritical gosh be and much and this haughgosh be and much and this haughtily broadcast goodness.</p>
+											</div>
+											<div class="dr_info">
+												<ul>
+													<li> <i class="cscolor icon-target5"></i> $84,000 goal </li>
+													<li> <i class="cscolor icon-clock7"></i> July 27, 2014 </li>
+												</ul>
+												<span class="bar"><span style="width:12%;"></span></span>
+												<div class="detail"> <span class="fund">12% Funded</span> <a href="#" class="star icon-star"></a> </div>
+											</div>
+										</div>
+									</div>
+								</article>
+								<article class="col-md-12">
+									<div class="directory-section">
+										<div class="cs_thumbsection">
+											<figure><a href="#"><img src="assets/extra-images/img.jpg" alt=""></a></figure>
+										</div>
+										<div class="content_info">
+											<div class="title">
+												<h3><a href="#">We Are Cove Point - Stop Gas Export Plant</a></h3>
+												<span class="addr">214 Greene Avenue</span> 
+												<p>That sneered vivaciously that thus hey porpoise uncritical gosh be and much and this haughgosh be and much and this haughtily broadcast goodness.</p>
+											</div>
+											<div class="dr_info">
+												<ul>
+													<li> <i class="cscolor icon-target5"></i> $84,000 goal </li>
+													<li> <i class="cscolor icon-clock7"></i> July 27, 2014 </li>
+												</ul>
+												<span class="bar"><span style="width:12%;"></span></span>
+												<div class="detail"> <span class="fund">12% Funded</span> <a href="#" class="star icon-star"></a> </div>
+											</div>
+										</div>
+									</div>
+								</article>
+								<article class="col-md-12">
+									<div class="directory-section">
+										<div class="cs_thumbsection">
+											<figure><a href="#"><img src="assets/extra-images/img.jpg" alt=""></a></figure>
+										</div>
+										<div class="content_info">
+											<div class="title">
+												<h3><a href="#">We Are Cove Point - Stop Gas Export Plant</a></h3>
+												<span class="addr">214 Greene Avenue</span> 
+												<p>That sneered vivaciously that thus hey porpoise uncritical gosh be and much and this haughgosh be and much and this haughtily broadcast goodness.</p>
+											</div>
+											<div class="dr_info">
+												<ul>
+													<li> <i class="cscolor icon-target5"></i> $84,000 goal </li>
+													<li> <i class="cscolor icon-clock7"></i> July 27, 2014 </li>
+												</ul>
+												<span class="bar"><span style="width:12%;"></span></span>
+												<div class="detail"> <span class="fund">12% Funded</span> <a href="#" class="star icon-star"></a> </div>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+	<!--// Main Content //--> 
+	
+	<!--// Footer Widget //-->
+	<footer id="footer-sec">
+		<div class="container">
+			<div class="row">
+				<div class="ads-sec col-md-12"> <img src="assets/images/ads.jpg" alt="" > </div>
+				<div class="tweet-sec col-md-12">
+					<p><i class="twitter-icon icon-twitter2"></i> Thing anyone did today was get ready for #Scandal <a href="#">http://t.co/UfiNiBLWlZ http://t.co/Fvggnf320f</a> <span class="by">Boxtheme</span> <span class="time">10 hours ago</span></p>
+				</div>
+				<aside class="col-md-4 widget widget_categories">
+					<div class="widget-section-title"> <strong class="title">Campaigning</strong> </div>
+					<ul>
+						<li><a href="#">Contributing</a></li>
+						<li><a href="#">Publishing</a></li>
+						<li><a href="#">Explore Partner Pages</a></li>
+						<li><a href="#">Music</a></li>
+						<li><a href="#">Daily Inspiration</a></li>
+						<li><a href="#">Film and Theatre</a></li>
+						<li><a href="#">Sign Up Now</a></li>
+						<li><a href="#">Food and Drink</a></li>
+						<li><a href="#">Private, secure, spam-free</a></li>
+						<li><a href="#">Sports</a></li>
+						<li><a href="#">School</a></li>
+					</ul>
+				</aside>
+				<aside class="widget col-md-4 widget_categories">
+					<div class="widget-section-title"> <strong class="title">Contributing</strong> </div>
+					<ul>
+						<li><a href="#">Crowdfunder API - Beta</a>
+						<li><a href="#">How crowdfunding works</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Creating a project</a></li>
+						<li><a href="#">Guides</a></li>
+						<li><a href="#">Supporting a project</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Guidelines</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Jobs</a></li>
+						<li><a href="#">Partners</a></li>
+					</ul>
+				</aside>
+				<aside class="widget col-md-4 widget_newsletter">
+					<div class="widget-section-title"> <strong class="title">Weekly Newsletter</strong> </div>
+					<form>
+						<fieldset>
+							<input type="submit" value="Submit" name="submit" class="cs-btn">
+							<input class="email" type="email" placeholder="Your Email Address">
+						</fieldset>
+					</form>
+				</aside>
+			</div>
+		</div>
+	</footer>
+	<!--// Footer Widget //--> 
+	
+	<!--// CopyRight //-->
+	<section id="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="footer_icon"><a href="#"><img src="assets/images/footer-logo.png" alt=""></a></div>
+					<div class="fnav-area">
+						<nav class="footer-nav">
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Categories</a></li>
+								<li><a href="#">Showrooms</a></li>
+								<li><a href="#">Agents</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Contact us</a></li>
+							</ul>
+						</nav>
+						<p>©2014 Box Theme All rights reserved. Design by <a href="#">Chimp Studio</a></p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="social-media">
+						<ul>
+							<li><a href="#"><i class="icon-facebook7"></i></a></li>
+							<li><a href="#"><i class="icon-twitter6"></i></a></li>
+							<li><a href="#"><i class="icon-googleplus7"></i></a></li>
+							<li><a href="#"><i class="icon-instagram4"></i></a></li>
+							<li><a href="#"><i class="icon-youtube-play"></i></a></li>
+							<li><a href="#"><i class="icon-skype"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--// CopyRight //--> 
+	
+</div>
+</body>
+</html>
