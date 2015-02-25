@@ -4057,53 +4057,66 @@ a.send-msg i {
 }
 
 /*- User Review Style -*/
-.csuser_review {
+.csuser_review, .cs-user-ads {
 	width: 100%;
 	float: left;
 	padding: 0 0 12px 0;
 	background-color: #fff;
 	margin: 0 0 10px 0;
 }
-.csuser_review figure {
+.csuser_review figure,
+.cs-user-ads figure {
 	float: left;
 	margin: 0;
 	padding-left: 15px;
 }
-.csuser_review ul li {
+.csuser_review ul li,
+.cs-user-ads ul li {
 	width: 100%;
 	float: left;
 	list-style: none;
 	margin: 0 0 20px 0;
 }
-.csuser_review figure ~ .text {
+.csuser_review figure ~ .text,
+.cs-user-ads figure ~ .text {
 	padding: 0 0 0 110px;
 }
-.csuser_review .text h6 {
+.csuser_review .text h6,
+.cs-user-ads .text h6 {
 	margin: 0;
 	line-height: 17px;
 	font-weight: 700;
 	font-size: 15px;
 }
-.csuser_review .text ul {
+.csuser_review .text ul,
+.cs-user-ads .text ul {
 	margin: 0;
 	border: none;
 }
-.csuser_review ul {
+.csuser_review ul,
+.cs-user-ads ul {
 	margin: 0;
 	width: 100%;
 	float: left;
 	margin: 0 0 10px;
 	border-bottom: 1px solid #f2f2f2;
 }
-.csuser_review .text .post-options li {
+.csuser_review .text .post-options li,
+.cs-user-ads .text .post-options li {
 	line-height: 18px;
 	margin: 0;
 }
-.csuser_review .text .post-options li i {
+.cs-user-ads ul li {
+	width: 100%;
+	float: left;
+}
+.csuser_review .text .post-options li i,
+.cs-user-ads .text .post-options li i {
 	line-height: 12px;
 	margin: 2px 2px 0 0;
 }
-.csuser_review .text span {
+.csuser_review .text span,
+.cs-user-ads .text span {
 	font-size: 16px;
 	color: #ff600a;
 }
