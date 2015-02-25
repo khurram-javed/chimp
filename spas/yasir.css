@@ -1,0 +1,307 @@
+
+/* Fancy Heading Style */
+.cs-fancy-heading {
+	text-align: center;
+}
+.cs-fancy-heading span,
+.cs-image-frame section span {
+	font-size: 14px;
+	color: #6a6472;
+	font-style: italic;
+	margin: 0 0 10px 0;
+	display: block;
+}
+.cs-fancy-heading h4,
+.cs-fancy-heading h1 {
+	text-transform: uppercase;
+}
+.cs-spreater {
+    display: inline-block;
+    float: none;
+    overflow: hidden;
+    text-align: center;
+    width: 330px;
+}
+.cs-spreater .sc-spreater-inner:before, .cs-spreater .sc-spreater-inner:after {
+    border-bottom: 1px solid #c5c3c6;
+    content: "";
+    height: 1px;
+    left: 100%;
+    margin-left: 10px;
+    position: absolute;
+    top: 10px;
+    width: 7700px;
+}
+.cs-spreater .sc-spreater-inner:after {
+    left: auto;
+    margin-right: 10px;
+    right: 100%;
+}
+.cs-spreater .sc-spreater-inner {
+    display: inline-block;
+    position: relative;
+}
+.cs-spreater i {
+	color: #6a6472;
+}
+
+/* Services Style */
+.cs-classic figure{
+	float: left;
+	margin: 0 15px 0 0;
+}
+.cs-classic .cs-text {
+	overflow: hidden;
+}
+.cs-classic .cs-text h6 {
+	text-transform: uppercase;
+	margin: 0;
+}
+.cs-read-more {
+	font-size: 14px;
+	color: #fff;
+	padding: 5px 15px;
+	border-radius: 3px;
+	float: left;
+	text-transform: uppercase;
+}
+
+/* Image Frame Style */
+.cs-image-frame {
+	width: 100%;
+	float: left;
+}
+.cs-image-frame figure {
+	float: right;
+	margin: 0 0 0 60px;
+}
+.cs-image-frame figure img {
+	border-radius: 8px;
+}
+.cs-image-frame section {
+	overflow: hidden;
+}
+.cs-image-frame section h1 {
+	font-size: 40px;
+	margin: 0 0 20px 0;
+	text-transform: uppercase;
+}
+.cs-image-frame section h6 {
+	color: #6a6472;
+	margin: 0 0 15px 0;
+	text-transform: uppercase;
+}
+.cs-image-frame section strong {
+	font-size: 20px;
+	color: #6a6472;
+	font-weight: 400;
+}
+
+/* Services Modren Style */
+.cs-modren figure {
+	width: 100%;
+	float: left;
+	margin: 0;
+}
+.cs-modren .cs-text {
+	width: 100%;
+	float: left;
+	padding: 20px 5px 20px 20px;
+	background-color: #fff;
+}
+.cs-modren .cs-text h2 {
+	font-weight: 400;
+	margin: 0;
+	float: left;
+	text-transform: uppercase;
+}
+.cs-modren .cs-text span {
+	font-size: 60px;
+	color: #f3f2f3;
+	float: right;
+	font-weight: 400;
+}
+
+/* Section Title Style */
+.cs-section-title span {
+	font-style: italic;
+	color: #6a6472;
+	display: block;
+	font-weight: 400;
+	margin: 0 0 10px 0;
+}
+.cs-section-title h1 {
+	font-weight: 400;
+	margin: 0;
+}
+
+/* Treatment Style */
+.cs-treatment {
+	width: 100%;
+	float: left;
+}
+.cs-treatment .cs-left {
+	width: 25%;
+	float: left;
+}
+.cs-treatment .cs-nav-tabs {
+	width: 100%;
+	float: left;
+	border: none;
+	margin: 0 0 30px 0;
+}
+.cs-treatment .cs-nav-tabs li {
+	width: 100%;
+	float: left;
+	margin: 0 0 5px;
+}
+.cs-treatment .cs-nav-tabs li a {
+	border: none;
+	padding: 0;
+	color: #6a6472;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.cs-nav-tabs > li.active > a,
+.cs-nav-tabs > li.active > a:focus, 
+.cs-nav-tabs > li.active > a:hover,
+.nav > li > a:focus, .nav > li > a:hover {
+	border: none;
+	background-color: inherit;
+}
+.cs-treatment .cs-nav-tabs li.active {
+	position: relative;
+	padding: 0 0 0 20px;
+}
+.cs-treatment .cs-nav-tabs li.active:before {
+	position: absolute;
+	left: 0;
+	top: 8px;
+	content:"";
+	width: 13px;
+	height: 13px;
+	border: 1px solid;
+	background: url(assets/images/arrow1.png) 2px 2px no-repeat;
+}
+.cs-treatment .tab-content {
+	width: 75%;
+	float: left;
+	position: relative;
+	padding: 0 0 0 20px;
+	background-color:#f5f5f5;
+	box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.cs-treatment .tab-content figure {
+	float: left;
+	width: 55%;
+	margin: 0;
+}
+.cs-treatment .cs-contant-info {
+	background-color: #fff;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    width: 45%;
+	padding: 30px;
+}
+.cs-treatment .cs-contant-info h2 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.cs-treatment .cs-list-style {
+	margin-bottom: 20px;
+}
+.cs-treatment .cs-list-style,
+.cs-treatment .cs-list-style ul li {
+	width: 100%;
+	float: left;
+}
+.cs-treatment .cs-list-style ul li {
+	position: relative;
+	list-style: none;
+	padding: 0 0 0 15px;
+	font-size: 14px;
+	color: #2e2e2e;
+}
+.cs-treatment .cs-list-style ul li:before {
+	position: absolute;
+	left: 0;
+	top: 10px;
+	content:"";
+	width: 7px;
+	height: 7px;
+	background: url(assets/images/arrow1.png) no-repeat;
+}
+.cs-charge {
+    display: inline-block;
+    float: none;
+    overflow: hidden;
+    text-align: left;
+    width: 100%;
+	margin: 0 0 5px;
+}
+.cs-charge span {
+	font-size: 14px;
+	color: #6a6472;
+	font-weight: 400;
+	font-style: italic;
+}
+.cs-charge .cs-charge-inner {
+    display: inline-block;
+    position: relative;
+}
+.cs-charge .cs-charge-inner:before, .cs-charge .cs-charge-inner:after {
+    border-bottom: 1px solid #f2f2f2;
+    content: "";
+    height: 1px;
+    left: 100%;
+    margin-left: 10px;
+    position: absolute;
+    top: 14px;
+    width: 7700px;
+}
+.cs-charge .cs-charge-inner:after {
+    left: auto;
+    margin-right: 10px;
+    right: 100%;
+}
+.cs-treatment time {
+	display: block;
+	text-align: center;
+	background-color: #000;
+	font-size: 16px;
+	color: #cccccc;
+	padding: 12px 0;
+	border-radius: 5px;
+}
+.cs-treatment small {
+	font-size: 12px;
+	color: #6a6472;
+	display: block;
+	padding: 5px 0;
+	text-align: center;
+	background-color: #f7f7f7;
+}
+
+/* Cs Default Btn Style */ 
+
+.cs-treatment .cs-default-btn {
+ display: inline-block;
+ color: #fff;
+ font-size: 16px;
+ font-weight: 300;
+ position: relative;
+ padding:8px 25px;
+ box-shadow: 0 0 0 3px #eaeaea;
+ border-radius: 3px;
+}
+.cs-default-btn:before {
+ content: "";
+ position: absolute;
+ left: 0px;
+ top: 0px;
+ width: 100%;
+ height: 50%;
+ background-color:rgba(255,255,255,0.1);
+}
