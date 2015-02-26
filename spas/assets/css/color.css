@@ -1,9 +1,9 @@
 ﻿/* ThemeColor Setup */
 
-.cscolor,.cs-hovercolor:hover, .cs-treatment .cs-nav-tabs li.active a {
+.cscolor,.cs-hovercolor:hover, .cs-treatment .cs-nav-tabs li.active a, .footer-nav li a:hover, .navigation > ul > li:hover::after, .navigation > ul > li:hover > a {
 	color: #709341 !important;
 }
-.cs-bgcolor,.csbg-color,.csbg-hovercolor:hover, .cs-read-more {
+.cs-bgcolor,.csbg-color,.csbg-hovercolor:hover, .cs-read-more, .navigation > ul > li:hover::before, .sub-dropdown > li::before {
 	background-color: #709341 !important;
 }
 
