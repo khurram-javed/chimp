@@ -96,7 +96,7 @@ body.logged-in.admin-bar {margin-top: 32px;}
 .col-md-9 .col-md-2 {width: 20%;}
 .col-md-9 .col-md-3 {width: 33.3333%;}
 .main-title.col-md-12 { margin: 0px; }
-.col-md-12 .col-md-12,.col-md-12 .col-md-6 { padding: 0px; }
+/*.col-md-12 .col-md-12,.col-md-12 .col-md-6 { padding: 0px; }*/
 /* RichEditore Style's */
 .rich_editor_text h1, .rich_editor_text h2, .rich_editor_text h3, .rich_editor_text h4, .rich_editor_text h5 {margin-bottom: 10px;}
 .rich_editor_text p, .rich_editor_text ul, .rich_editor_text ol {margin-bottom: 10px;}

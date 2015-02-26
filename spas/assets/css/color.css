@@ -1,9 +1,9 @@
 ﻿/* ThemeColor Setup */
 
-.cscolor,.cs-hovercolor:hover, .cs-treatment .cs-nav-tabs li.active a {
+.cscolor,.cs-hovercolor:hover, .cs-treatment .cs-nav-tabs li.active a, .widget-categories ul li a:hover, .cs-price-table .features li i {
 	color: #709341 !important;
 }
-.cs-bgcolor,.csbg-color,.csbg-hovercolor:hover, .cs-read-more {
+.cs-bgcolor,.csbg-color,.csbg-hovercolor:hover, .cs-read-more, .cs-treatment .cs-nav-tabs li.active:after, .cs-price-table .sigun_up {
 	background-color: #709341 !important;
 }
 
