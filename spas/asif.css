@@ -1,0 +1,737 @@
+/* Cs Testimonial Style */
+
+.cs-question-mark {
+	float: left;
+	width: 100%;
+	padding: 25px;
+	background-color: #fff;
+	border-radius: 6px;
+	box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.1);
+	position: relative;
+}
+.cs-question-mark:before {
+	content: "\e9fe";
+	position: absolute;
+	display: inline-block;
+	left: 12px;
+	top: -9px;
+	font-size: 20px;
+	color: #f1c73b;
+	font-family: 'icomoon';
+	width: 34px;
+	height: 34px;
+	line-height: 34px;
+	background-color:#fff;
+	border: 1px solid rgba(0,0,0,0.1);
+	padding: 0 5px;
+	border-radius: 100%;
+}
+.cs-question-mark p {
+	margin-bottom: 16px;
+	text-indent:25px;
+}
+.cs-italic-style{
+	font-style: italic;
+}
+/* Cs Author Style */
+
+.cs-author {
+	display: block;
+}
+.cs-author h6{text-transform: uppercase; padding:8px 0 0px 0; margin: 0px 0 3px 0; }
+.cs-author figure {
+	float: left;
+	width: 57px;
+	border-radius: 100%;
+	margin: 0 15px 0 0;
+}
+.cs-author figure img {
+	border-radius: 100%;
+}
+.cs-author h6 span{
+	font-size: 14px;
+	color: #999;
+	font-weight: 300;
+}
+
+/* Cs  Rating Style */ 
+
+.cs-rating {
+	float: left;
+    height: 22px;
+    line-height: 16px;
+    margin-right: 0;
+    padding-bottom: 10px;
+    position: relative;
+    width: 100px;
+}
+.cs-rating-box {
+    height: 16px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+.cs-rating:before, .cs-rating-box:before {
+    color: #ffae00;
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "icomoon";
+    font-size: 16px;
+    left: 0;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 0;
+    font-style: normal;
+    font-family: 'icomoon';
+}
+.cs-rating:before{
+	content: "\f006 \f006 \f006 \f006 \f006";
+}
+
+/* Cs  Section Title Style */ 
+.cs-section-title{
+	margin-bottom: 30px;
+} 
+.cs-section-title span {
+	font-style: italic;
+	font-size: 14px;
+	color: #6a6472;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+.cs-section-title h1 {
+	margin: 0px;
+}
+
+
+/* Cs Partner Style */ 
+
+.cs-partner{
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	box-shadow: 0 0 4px 0px rgba(0,0,0,0.1);
+}
+.cs-partner ul li {
+	text-align: center;
+	margin: 0px;
+	padding: 35px 15px 25px 15px;
+	border-left: 1px solid #e5e5e5;
+}
+.cs-partner ul li:first-child {
+	border-left: none;
+}
+.cs-partner figure {
+	display: inline-block;
+	float: none;
+	margin: 0px;
+}
+.cs-partner figure img {
+	width: auto;
+}
+
+
+/* Cs Call Action Style */ 
+
+.cs-call-actions.cs-ac-classic {
+    float: left;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+}
+.cs-call-actions .cs-cell {
+    display: inline-block;
+    padding: 0;
+    vertical-align: middle;
+    margin: 0 0 0 -4px;
+}
+.cs-ac-classic .cs-text-area{
+	width: 68%;
+}
+.cs-ac-classic .cs-text-area span {
+	font-style: italic;
+	display: inline-block;
+	margin-bottom: 6px;
+}
+.cs-ac-classic .cs-icon{
+	width: 12%;
+}
+.cs-ac-classic .cs-call-to-btn{
+	display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    width: 20.54%;
+}
+.cs-call-actions .cs-cell {
+	float: none;
+}
+.cs-ac-classic .cs-call-to-btn .cs-default-btn{
+	box-shadow: 0 0 0 3px rgba(234,234,234,0.1);
+}
+
+/* Cs Default Btn Style */ 
+
+.cs-default-btn {
+	display: inline-block;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	position: relative;
+	padding:10px 25px;
+	box-shadow: 0 0 0 3px #eaeaea;
+	border-radius: 3px;
+}
+.cs-default-btn:before {
+	content: "";
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 40%;
+	background-color:rgba(255,255,255,0.1);
+}
+
+/*  Default CS Blog Style */
+.cs-blog-editor{ padding: 30px 0; }
+.cs-blog {
+	width: 100%;
+	float: left;
+	padding: 30px 0;
+} 
+.cs-blog.cs-blog-large .cs-media {
+	margin-bottom: 28px;
+	float: left;
+	width: 100%;
+}
+.cs-blog .cs-media figure {
+	margin: 0px;
+}
+.cs-blog h4 {
+	margin: 0 0 20px 0;
+	text-transform: uppercase;
+}
+.cs-blog p {
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid #ececec;
+	margin: 0 0 15px 0;
+}
+.cs-blog .cs-likes ~ .cs-blog-text{
+	padding: 0 0 0 70px;
+}
+/* CS Blog Boxed Style */
+.cs-blog-large-box .cs-bloginfo-sec {
+	padding: 30px 25px;
+	background-color:#fff;
+	float: left;
+	width: 100%; 
+}
+.cs-blog-large-box .cs-likes{
+	text-align: left;
+	padding-left: 8px;
+}
+.cs-blog.cs-blog-large-box .cs-likes ~ .cs-blog-text{
+	padding: 0 0 0 55px;
+}
+/* CS Blog Medium Style */
+.cs-blog-medium .cs-media, .cs-blog-medium-box .cs-media{
+	float: left;
+	width: 225px;
+	margin: 0 20px 0px 0;
+} 
+.cs-blog-medium .cs-bloginfo-sec, .cs-blog-medium-box .cs-bloginfo-sec{
+	overflow: hidden;
+	position: relative;
+}
+.cs-blog-medium h2, .cs-blog-medium-box h2 {text-transform: uppercase; margin: 0 0 10px 0;}
+.cs-blog-medium-box article{
+	padding: 30px;
+	background-color:#fff;
+	border-radius: 6px; 
+	margin: 0 0px 35px 0px;
+	width: 100%;
+}
+/* CS Blog Grid Style */
+.cs-blog-grid .cs-media {
+	margin: 0 0 15px 0px;
+	float: left;
+	width: 100%;
+}
+.cs-blog-grid .cs-media figure, .cs-blog-grid .cs-media figure img {
+	width: 100%;
+	float: left;
+}
+.cs-related-post  .cs-blog.cs-blog-grid h2 {margin: 0 0 5px 0;}
+/* CS Post Options Style */
+.cs-post-options {
+	display: block;
+	padding: 0px;
+}
+.cs-post-options li {
+	list-style: none;
+	font-size: 14px;
+	font-weight: 300;
+	color: #999;
+	float: left;
+	margin: 0 10px;
+	position: relative;
+	text-transform: capitalize;
+}
+.cs-post-options time{
+	text-transform: capitalize;
+	font-size: 14px;
+	font-weight: 300;
+	color: #999;
+}
+.cs-post-options li:first-child {
+	margin-left: 0px;
+}
+.cs-post-options li:before {
+	content: "";
+	position: absolute;
+	left: -12px;
+	top: 12px;
+	width: 4px;
+	height: 4px;
+	background-color:#dcdcdc;
+	border-radius: 4px;
+}
+.cs-post-options li:first-child:before{display: none;}
+.cs-post-options li i {
+	margin: 0 6px 0 0;
+	color: #cccccc;
+}
+.cs-post-options li a {
+	color: #999;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+.cs-post-options li a:hover {
+	text-decoration: underline;
+}
+
+/* CS Likes Style */
+.cs-likes{
+	float: left;
+	width: 50px;
+	text-align: center;
+}
+.cs-likes i {
+	color: #999;
+	font-size: 20px;
+	line-height: 16px;
+}
+.cs-likes span {
+	display: block;
+	font-size: 14px;
+	color: #555555;
+	font-weight: 300;
+	line-height: 16px;
+}
+
+/* Blog Detail page Style */
+
+.cs-blog-editor h4 {
+	margin: 0 0 20px 0;
+	text-transform: uppercase;
+	line-height: 34px;
+}
+.cs-detail-post {
+	margin: 0 0 30px 0;
+	float: left;
+	width: 100%;
+}
+.cs-post-options, .cs-blog-editor {
+	float: left;
+	width: 100%;
+}
+.cs-post-panel figure {
+	float: left;
+	width: 35px;
+	border-radius: 100%;
+	margin: 0 15px 0 0;
+}
+.cs-post-panel figure img {
+	border-radius: 100%;
+}
+.cs-post-panel .cs-post-options {
+    display: inline-block;
+    float: none;
+    margin: 0 0 16px;
+    width: auto;
+}
+.cs-post-panel .cs-post-options li:before {
+	display: none;
+}
+.cs-post-panel .cs-post-options li{
+	float: left;
+	margin-right: 30px;
+	font-size: 11px;
+	color: #ccc;
+	text-transform: uppercase;
+	line-height: 16px;
+}
+.cs-post-panel .cs-post-options time{ margin: 0px; line-height: 26px;}
+.cs-post-panel .cs-post-options li a{
+	display: block;
+	line-height: 26px;
+}
+.cs-editor-text p{
+	margin: 0 0 24px 0;
+}
+
+/* Blockquote Style */
+blockquote {
+	float: left;
+	width: 100%;
+	padding: 30px 0 25px 0;
+	border-left: none;
+	font-style: italic;
+	text-align: center;
+	font-size: 20px;
+	line-height: 24px;
+	border-top: 1px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
+	margin: 15px 0 30px 0;
+	position: relative;
+}
+blockquote:before {
+	content: "\e9fe";
+	position: absolute;
+	left: 50%;
+	top: -15px;
+	font-size: 28px;
+	color: #aaaaaa;
+	font-family: 'icomoon';
+	padding: 0 6px;
+	background-color: #f7f7f7;
+}
+
+/*  Cs Tags Style */
+.cs-tags {
+	float: left;
+	width: 100%;
+	margin: 0 0 15px 0;
+}
+.cs-tags ul li {
+	float: left;
+	list-style: none;
+	font-size: 14px;
+	color: #999;
+	margin: 0 0 0 4px;
+}
+.cs-tags ul li a{
+	font-size: 14px;
+	color: #666;
+	text-decoration: underline;
+}
+.cs-tags i {
+	float: left;
+    font-size: 16px;
+    margin: 5px 12px 0 0;
+    color: #6a6472;
+}
+
+/* CS Likes Style */
+.cs-social-share .cs-likes {
+	float: left;
+	padding: 14px 18px;
+	width: auto;
+	background-color: #fff;
+	font-size: 14px;
+	color: #555555;
+	margin-right: 1px;
+}
+.cs-social-share .cs-likes i {
+	float: left;
+	font-size: 20px;
+	color: #999;
+	margin: 5px 5px 0 0;
+}
+
+/* CS Social Share Style */
+
+.cs-social-share, .cs-post-pagination{
+	float: left;
+    width: 100%;
+    margin: 10px 0 35px 0;
+}
+.socialmedia {
+	background-color: #fff;
+	padding: 14px 18px 14px 18px;
+	display: inline-block;
+}
+.socialmedia ul li {
+	list-style: none;
+	float: left;
+	line-height: 1.6;
+}
+.socialmedia ul {
+	float: left;
+	margin: 0px;
+}
+.cs-share-btn {
+	font-size: 14px;
+	color: #999;
+	text-transform: uppercase;
+	margin-right: 20px;
+	float: left;
+}
+.cs-share-btn i {margin-right: 7px;}
+.cs-related-post .cs-section-title, #cs-comments .cs-section-title {
+	margin: 0px 0px 15px 0px;
+}
+.cs-related-post .cs-section-title h2, #cs-comments .cs-section-title h2 {margin: 0px; text-transform: uppercase;}
+ .cs-related-post{
+ 	border-bottom: 1px solid #eaeaea;
+ 	margin: 0 0 30px 0;
+ }
+/* CS Comments Style */
+#cs-comments, .cs-related-post, #cs-comments .thumblist {
+	float: left;
+	width: 100%;
+}
+#cs-comments .thumblist {
+	margin: 0 0 30px 0;
+}
+#cs-comments ul li {
+	list-style: none;
+	float: left;
+	width: 100%;
+}
+#cs-comments .children {
+	padding-left: 50px;
+	position: relative;
+}
+#cs-comments .children figure {
+	position: relative;
+}
+#cs-comments .children figure:before {
+	content: "";
+	position: absolute;
+	left: -29px;
+	top: -29px;
+	width: 13px;
+	height:60px;
+	background:url(assets/images/comment-border.png) no-repeat;
+}
+#cs-comments .children .cs-text-box p {
+	background-color: #fff;
+	padding: 25px;
+	position: relative;
+}
+#cs-comments .children .cs-text-box p:before {
+	content: "";
+	position: absolute;
+	left: -8px;
+	top: 18px;
+	width: 0; 
+	height: 0; 
+	border-top: 4px solid transparent; 
+	border-right: 8px solid #fff; 
+	border-bottom: 4px solid transparent;
+}
+#cs-comments ul{
+	margin: 0px;
+	padding: 0px;
+}
+#cs-comments .thumblist figure {
+	float: left;
+	width: 60px;
+	border-radius: 100%;
+	margin: 0 0px 0 0;
+}
+#cs-comments .thumblist figure img {
+	border-radius: 100%;
+}
+#cs-comments ul li:nth-child(2){
+	border-top: 1px solid #eaeaea;
+	padding: 30px 0 0 0;
+	border-bottom: 1px solid #eaeaea;
+	margin: 0px 0px 30px 0px;
+}
+.thumblist figure ~ .cs-text-box {
+	padding: 0 0 0 90px;
+}
+.thumblist .cs-text-box h6 {
+	float: left;
+	margin: 0 10px 0 0;
+}
+.thumblist .cs-text-box p {
+	margin: 0 0 15px 0;
+}
+.thumblist  .cs-text-box time {
+	font-size: 12px;
+	color: #999;
+}
+.thumblist .comment-reply{
+	font-size: 12px;
+	margin: 0 0 0 10px;
+}
+.thumblist .comment-reply img {
+	margin: 0 6px 0 0;
+}
+
+/* Leave Form  Style */
+
+.cs-classic-form {
+	width: 100%;
+	float: left;
+	margin-bottom: 0px;
+}
+.comment-respond .cs-section-title {
+	margin-bottom: 15px;
+}
+.comment-respond .cs-section-title h2{
+	text-transform: uppercase;
+	margin: 0px;
+}
+.comment-respond p input[type="text"],
+.comment-respond p textarea  {
+	font-size: 14px;
+	color: #b8b8b8;
+	height:48px;
+	border: 1px solid #dddddd;
+	border-radius: 0;
+	padding-left: 20px;
+	width: 50%;
+	float: left;
+	font-weight: 300;
+}
+.comment-respond p.comment-form-comment {
+	float: left;
+	width: 100%;
+}
+.comment-respond p.form-submit-loggedin ~ p.comment-form-comment { position: relative; float: left; width: 100%; padding: 0px; }
+.comment-respond p.comment-form-comment {
+	position: absolute;
+	right: 0px;
+	top: 0;
+	width: 50%;
+	padding-left: 20px;
+}
+.comment-respond form p label{
+	width: 100%;
+	float: left;
+	margin: 0 0 5px 0;
+}
+.comment-respond p.comment-form-comment textarea {
+	width: 100%;
+	height: 154px;
+	padding-top: 10px;
+}
+.comment-respond form {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.comment-respond form  p {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin: 0px;
+}
+.comment-respond form  p.form-submit {
+	margin-top: 6px;
+}
+.comment-respond form  p.form-submit input[type="submit"]{
+	display: inline-block;
+	border: none;
+	padding: 8px 25px;
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	border-radius: 3px;
+	position: relative;
+	left: 28%;
+}
+.comment-respond form  p.form-submit span {
+	font-size: 12px;
+	color: #a9a9a9;
+	display: inline-block;
+}
+/* CS pagination Style */
+
+.cs-post-pagination article{
+	float: left;
+	width: 49%;
+	background-color: #fff;
+	text-align: center;
+	padding: 0 20px;
+}
+.cs-post-pagination article.cs-prev{
+	margin-right: 4px;
+}
+.cs-post-pagination article a i {
+	width: 27px;
+	height: 27px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	background-color: #e1e0e3;
+	display: inline-block;
+	line-height: 27px;
+	margin: 0 0 25px 0;
+}
+.cs-post-pagination article .text {
+	margin: 0px 0px 25px 0px;
+}
+.cs-post-pagination .cs-text a.cs-post-prev, .cs-post-pagination .text a.cs-post-next, .cs-post-pagination article .text h6{
+	display: inline-block;
+}
+.cs-post-pagination .text a.cs-post-prev, .cs-post-pagination .text a.cs-post-next {
+	font-size: 18px;
+	font-weight: 300;
+}
+/* CS Pagination Style */
+.pagination {
+	float: left;
+	width: 100%;
+	text-align: center;
+	background-color: #fff;
+}
+.pagination ul li {
+	display: inline-block;
+	list-style: none;
+	position: relative;
+	padding: 10px 14px 8px 14px;
+	margin: 0 0 0 -4px;
+}
+.pagination ul li:before {
+	color: #e4e4e4;
+    content: "//";
+    font-size: 12px;
+    left: -3px;
+    letter-spacing: -1px;
+    position: absolute;
+    top: 10px;
+}
+.pagination ul li a {
+	font-size: 14px;
+	color: #666;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.pagination ul {margin: 0px; padding: 0px;}
+.pagination .pgprev{
+	float: left;
+	border-right: 4px solid rgba(0,0,0,0.1);
+}
+.pagination .pgprev, .pagination .pgnext{
+	padding: 10px 20px 8px 20px;
+}
+.pagination .pgprev i, .pagination .pgnext i {
+	font-size: 10px;
+	color: #423454;
+}
+.pagination .pgprev i {margin: 0 8px 0 0;}
+.pagination .pgnext i {margin: 0 0 0 8px;}
+.pagination .pgnext{
+	float: right;
+	border-left: 4px solid rgba(0,0,0,0.1);
+}
+.pagination ul li:first-child:before, 
+.pagination ul li:last-child:before, 
+.pagination ul li:nth-child(2):before {
+    display: none;
+}
