@@ -469,7 +469,7 @@ address {font-style: italic;}
 	color: #fff;
 }
 .navigation .cs-booking-btn:hover:after{ color: #fff; }
-.navigation .cs-booking-btn:hover a{ color: #fff;}
+.navigation .cs-booking-btn:hover a{ color: #fff !important;}
 /* Breadcrumbs Start */
 .breadcrumb-sec{
 	position: absolute;
@@ -549,7 +549,7 @@ address {font-style: italic;}
 .cs-process{
 	margin: 0 0 36px; 
 }
-.section-title h2{
+.cs-section-title h2{
 	color: #5f5a65;
 	text-transform: uppercase;
 }
