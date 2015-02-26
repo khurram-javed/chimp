@@ -876,6 +876,13 @@ address {font-style: italic;}
 	float: right;
 	width:64%;
 }
+.faq-sec .cs-question {
+	font-size: 18px;
+	color: #6a6472;
+	display: block;
+	font-style: italic;
+	font-weight: 400;
+}
 /* Fancy Heading Style */
 .cs-fancy-heading {
 	text-align: center;
@@ -1446,6 +1453,7 @@ address {font-style: italic;}
 	padding: 50px 0 0;
 	text-align: center;
 	background-color: #ffffff;
+	border-radius: 0 0 8px 8px;
 }
 .cs-price-table .cs-price {
 	border-radius: 100%;
