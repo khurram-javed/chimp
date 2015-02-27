@@ -1568,7 +1568,15 @@ address {font-style: italic;}
 	height: 165px;
 	padding: 10px 20px;
 	border: 1px solid #dddddd;
-} 
+}
+
+/* About Us Style */
+.cs-light-box figure {
+	display: inline-block;
+}
+.cs-light-box.cs-text-center {
+	text-align: center;
+}
 
 /* Footer Start */
 #footer-sec{
