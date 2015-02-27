@@ -866,9 +866,11 @@ address {font-style: italic;}
 	clear: both;
 	content: '';
 }
-.faq-sec ul h6{
+.faq-sec ul .question-area{
 	float: left;
-	width:26%;
+	width:28%;
+}
+.faq-sec ul h6{
 	text-transform: uppercase;
 	line-height: 22px !important;
 }
