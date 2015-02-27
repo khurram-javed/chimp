@@ -166,8 +166,23 @@
 .cs-call-actions .cs-cell {
 	float: none;
 }
-.cs-ac-classic .cs-call-to-btn .cs-default-btn{
+.cs-call-actions .cs-call-to-btn .cs-default-btn{
 	box-shadow: 0 0 0 3px rgba(234,234,234,0.1);
+}
+
+/* Action Plane Style */ 
+.cs-plane.cs-text-center {
+	text-align: center;
+}
+.cs-call-actions.cs-plane .cs-cell {
+	width: 100%;
+}
+.cs-plane .cs-text-area span {
+	margin: 0 0 10px;
+	display: block;
+}
+.cs-plane .cs-text-area h3 {
+	margin-bottom: 30px;
 }
 
 /* Cs Default Btn Style */ 
