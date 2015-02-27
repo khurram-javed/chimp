@@ -3,7 +3,7 @@
 .cscolor,.cs-hovercolor:hover, .cs-treatment .cs-nav-tabs li.active a, .footer-nav li a:hover, .navigation > ul > li:hover::after, .navigation > ul > li:hover > a,.cs-treatment .cs-nav-tabs li.active a, .widget-categories ul li a:hover, .cs-price-table .features li i {
 	color: #709341 !important;
 }
-.cs-bgcolor,.csbg-color,.csbg-hovercolor:hover, .cs-read-more, .navigation > ul > li:hover::before, .sub-dropdown > li::before, .cs-treatment .cs-nav-tabs li.active:after, .cs-price-table .sigun_up  {
+.cs-bgcolor,.csbg-color,.csbg-hovercolor:hover, .cs-read-more, .navigation > ul > li:hover::before, .sub-dropdown > li::before, .cs-treatment .cs-nav-tabs li.active:after, .cs-price-table .sigun_up, .cs-plain-form input[type="submit"]  {
 	background-color: #709341 !important;
 }
 

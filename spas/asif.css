@@ -634,11 +634,12 @@ blockquote:before {
 .comment-respond form  p.form-submit {
 	margin-top: 6px;
 }
-.comment-respond form  p.form-submit input[type="submit"]{
+.comment-respond form  p.form-submit input[type="submit"],
+.cs-plain-form .submit-sec input[type="submit"] {
 	display: inline-block;
 	border: none;
-	padding: 8px 25px;
-	font-size: 16px;
+	padding: 6px 25px;
+	font-size: 14px;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -646,7 +647,8 @@ blockquote:before {
 	position: relative;
 	left: 28%;
 }
-.comment-respond form  p.form-submit span {
+.comment-respond form  p.form-submit span,
+.cs-plain-form .submit-sec span {
 	font-size: 12px;
 	color: #a9a9a9;
 	display: inline-block;
