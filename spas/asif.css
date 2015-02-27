@@ -117,6 +117,7 @@
 	margin: 0px;
 	padding: 35px 15px 25px 15px;
 	border-left: 1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
 }
 .cs-partner ul li:first-child {
 	border-left: none;
@@ -160,7 +161,7 @@
 	display: inline-block;
     text-align: right;
     vertical-align: middle;
-    width: 20.54%;
+   /* width: 20.54%;*/
 }
 .cs-call-actions .cs-cell {
 	float: none;
