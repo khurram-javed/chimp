@@ -56,7 +56,7 @@
 
 /* Cs  Rating Style */ 
 
-.cs-rating {
+/*.cs-rating {
 	float: left;
     height: 22px;
     line-height: 16px;
@@ -87,7 +87,7 @@
 .cs-rating:before{
 	content: "\f006 \f006 \f006 \f006 \f006";
 }
-
+*/
 /* Cs  Section Title Style */ 
 .cs-section-title{
 	margin-bottom: 30px;
@@ -219,6 +219,7 @@
 	float: left;
 	width: 100%;
 }
+.cs-editor-text{ padding: 0 !important; }
 .cs-blog .cs-media figure {
 	margin: 0px;
 }
@@ -356,7 +357,7 @@
 	float: left;
 	width: 100%;
 }
-.cs-post-options, .cs-blog-editor {
+.cs-post-options{
 	float: left;
 	width: 100%;
 }
@@ -578,6 +579,9 @@ blockquote:before {
 .thumblist  .cs-text-box time {
 	font-size: 12px;
 	color: #999;
+	display: inline-block;
+	vertical-align: middle;
+	margin: -10px 0 0;
 }
 .thumblist .comment-reply{
 	font-size: 12px;
@@ -662,6 +666,9 @@ blockquote:before {
 	position: relative;
 	left: 28%;
 }
+.comment-respond form  p.form-submit input[type="submit"]{
+	left:21.5%;
+}
 .comment-respond form  p.form-submit span,
 .cs-plain-form .submit-sec span {
 	font-size: 12px;
@@ -696,7 +703,11 @@ blockquote:before {
 }
 .cs-post-pagination .cs-text a.cs-post-prev, .cs-post-pagination .text a.cs-post-next, .cs-post-pagination article .text h6{
 	display: inline-block;
+	vertical-align: top;
+	line-height: 22px !important;
+	font-weight: 300;
 }
+.cs-post-pagination article .text h6{ width: 70%;}
 .cs-post-pagination .text a.cs-post-prev, .cs-post-pagination .text a.cs-post-next {
 	font-size: 18px;
 	font-weight: 300;
@@ -752,4 +763,153 @@ blockquote:before {
 .pagination ul li:last-child:before, 
 .pagination ul li:nth-child(2):before {
     display: none;
+}
+/* Team Starts */
+.cs-team {
+	width: 100%;
+	float: left;
+	padding: 20px 0 0 0;
+	border-top: 1px solid #ebebeb;
+}
+.cs-team .cs-section-title h2 {
+	margin: 0px;
+	text-transform: uppercase;
+}
+.cs-team .cs-section-title {
+	margin-bottom: 20px;
+}
+.cs-team figure {
+	float: left;
+	width: 100%;
+	position: relative;
+	margin-bottom: 10px;
+}
+.cs-team figure figcaption{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background-color: rgba(0,0,0,0.2);
+	opacity: 0;
+	visibility: hidden;
+}
+.cs-team article:hover figure figcaption {
+	opacity: 1;
+	visibility: visible;
+}
+.cs-team article:hover .cs-social-media{
+	 margin: -14px 0 0 0;
+}
+.cs-social-media ul li {
+	list-style: none;
+	display: inline-block;
+}
+.cs-team .cs-social-media {
+	display: block;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+.cs-team .cs-text .cs-post-title{
+	text-transform: uppercase;
+	margin: 0px;
+}
+.cs-team .cs-text span{
+	font-size: 12px;
+	color: #999;
+	text-transform: uppercase;
+}
+.cs-team .cs-text{
+	float: left;
+	width: 100%;
+}
+.cs-team .cs-social-media ul li a {
+	float: left;
+	width: 32px;
+	height: 32px;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	background-color: #0082ce;
+	line-height: 36px;
+	border-radius: 3px;
+	margin: 0 0 5px 2px;
+}
+.cs-team .cs-social-media ul li a[data-original-title="Facebook"] {
+	background-color: #005992;
+}
+.cs-team .cs-social-media ul li a[data-original-title="twitter"] {
+	background-color: #2a99e1;
+}
+.cs-team .cs-social-media ul li a[data-original-title="google-plus"] {
+	background-color: #d70d38;
+}
+.cs-team .cs-social-media ul li a[data-original-title="icon-instagram"] {
+	background-color: #005992;
+}
+
+/*  Cs Contact Form */
+.cs-contact-form {
+	float: left;
+	width: 100%;
+}
+.cs-contact-form input[type="text"], .cs-contact-form input[type="email"], .cs-contact-form textarea {
+	width: 100%;
+	float: left;
+	margin-bottom: 9px;
+	border:1px solid #dfecf0;
+	padding-left: 15px;
+	font-size: 14px;
+	font-weight: 300;
+	color: #a0a9b6;
+	height: 46px;
+}
+.cs-contact-form textarea {
+	height: 164px;
+	padding-top: 15px;
+	margin-bottom: 12px;
+}
+.cs-contact-form .cs-section-title, .cs-contact-info .cs-section-title{
+	margin-bottom: 20px;
+}
+.cs-contact-form .cs-section-title h2, .cs-contact-info .cs-section-title h2{
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+.cs-contact-form input[type="submit"]{
+	border: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #fff;
+	padding: 8px 30px;
+}
+
+/*  Cs Contact Info */
+.cs-contact-info {
+	float: left;
+	width: 100%;
+}
+.cs-contact-info ul li {
+	list-style: none;
+	float: left;
+	width: 100%;
+	margin: 0 0 10px 0;
+}
+.cs-contact-info ul li i {
+	margin: 0 8px 0 0;
+}
+.cs-contact-info ul li span{
+	font-size: 14px;
+	color: #444;
+	font-weight: 300;
+}
+.cs-contact-info ul li strong {
+	text-transform: uppercase;
+	font-weight: 400;
 }

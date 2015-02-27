@@ -1,9 +1,14 @@
 ﻿/* ThemeColor Setup */
 
-.cscolor,.cs-hovercolor:hover, .cs-treatment .cs-nav-tabs li.active a, .footer-nav li a:hover, .navigation > ul > li:hover::after, .navigation > ul > li:hover > a,.cs-treatment .cs-nav-tabs li.active a, .widget-categories ul li a:hover, .cs-price-table .features li i {
+.cscolor,.cs-hovercolor:hover, .cs-treatment .cs-nav-tabs li.active a, .footer-nav li a:hover, .navigation > ul > li:hover::after, .navigation > ul > li:hover > a,.cs-treatment .cs-nav-tabs li.active a, .widget-categories ul li a:hover, .cs-price-table .features li i,
+/* Cs Blog */.cs-blog article:hover h4 a, .cs-blog article:hover h2 a, .cs-post-options li:hover a, .pagination ul li:hover a, .pagination ul li:hover i, blockquote, .cs-tags ul li a:hover, .cs-post-pagination .text a.cs-post-prev, .cs-post-pagination .text a.cs-post-next, .cs-thumblist .comment-reply,
+.pagination ul li a.active, .cs-team article:hover .cs-post-title a, 
+/* Cs widget */ .twitter_widget article P a, .twitter_widget article .text i{
 	color: #709341 !important;
 }
-.cs-bgcolor,.csbg-color,.csbg-hovercolor:hover, .cs-read-more, .navigation > ul > li:hover::before, .sub-dropdown > li::before, .cs-treatment .cs-nav-tabs li.active:after, .cs-price-table .sigun_up, .cs-plain-form input[type="submit"]  {
+.cs-bgcolor,.csbg-color,.csbg-hovercolor:hover, .cs-read-more, .navigation > ul > li:hover::before, .sub-dropdown > li::before, .cs-treatment .cs-nav-tabs li.active:after, .cs-price-table .sigun_up, .cs-plain-form input[type="submit"],
+/* Cs Blog */.cs-blog .flex-direction-nav a:hover, .cs-blog .flex-control-paging li a.flex-active, .blog-editor .flex-control-paging li a.flex-active, .cs-blog .flex-control-paging li:hover a, .blog-editor .cs-tags i, .Continue-Readingbtn:hover,
+/* widget */.widget_calendar caption, .widget_search form label input[type="submit"], .tagcloud a:hover, .cs-form-element input[type="submit"], .icon-input a, .cs_directory_categories ul li:hover span, .cs-widget-testimonial .flex-control-paging li a.flex-active{
 	background-color: #709341 !important;
 }
 

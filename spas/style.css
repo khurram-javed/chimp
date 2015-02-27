@@ -521,6 +521,7 @@ address {font-style: italic;}
 .page-sidebar{
 	float: left;
 	width: 25%;
+	padding: 40px 0 0;
 }
 .page-content{
 	float: left;
@@ -722,7 +723,8 @@ address {font-style: italic;}
 	left: 0; 
 	letter-spacing: 4px; 
 	position: absolute; 
-	top: 0; 
+	top: 0;
+	font-style: normal;
 }
 .rating-box:before {color: #f1c73b;}
 .rating-box { 
@@ -936,8 +938,10 @@ address {font-style: italic;}
 	float: left;
 	margin: 0 15px 0 0;
 }
-.cs-classic .cs-text {
-	overflow: hidden;
+.cs-classic .cs-text:after{
+	display: block;
+	content: '';
+	clear: both;
 }
 .cs-classic .cs-text h6 {
 	text-transform: uppercase;
@@ -950,8 +954,8 @@ address {font-style: italic;}
 	border-radius: 3px;
 	float: left;
 	text-transform: uppercase;
+	box-shadow: 0 0 0 3px rgba(234,234,234,0.13);
 }
-
 /* Image Frame Style */
 .cs-image-frame {
 	width: 100%;
@@ -1571,12 +1575,18 @@ address {font-style: italic;}
 }
 
 /* About Us Style */
+.cs-text-center {
+	vertical-align: middle;
+	float: none;
+}
 .cs-light-box figure {
 	display: inline-block;
 }
 .cs-light-box.cs-text-center {
 	text-align: center;
 }
+.cs-light-box.cs-text-center p{ margin: 0 0 30px; }
+.cs-light-box.cs-text-center .btn-style .cs-default-btn{ margin: 0 16px;}
 
 /* Footer Start */
 #footer-sec{

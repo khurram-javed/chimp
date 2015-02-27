@@ -490,6 +490,14 @@
        -o-transition: all 0.3s ease-in;
           transition: all 0.3s ease-in;
 }
+/* Cs Blog */.cs-blog h4 a, .cs-post-options li, .cs-post-options li a, .cs-blog  h2 a, .cs-pagination ul li, .cs-pagination ul li a, .cs-tags ul li a,
+/* Cs team */.cs-team figure figcaption, .cs-team .cs-social-media ul li a, .cs-team .cs-social-media {
+  -webkit-transition: all 0.3s ease-in;
+     -moz-transition: all 0.3s ease-in;
+      -ms-transition: all 0.3s ease-in;
+       -o-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+}
 .top-nav ul li:last-child:before {
   display: none;
 }
