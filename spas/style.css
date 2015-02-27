@@ -1531,6 +1531,43 @@ address {font-style: italic;}
 	width: 100%;
 	display: inline-block;
 }
+
+/* Plain Form Setup  */
+.cs-plain-form {
+	position: relative;
+}
+.cs-plain-form, .cs-plain-form label {
+	width: 100%;
+	float: left;
+}
+.cs-plain-form input[type="text"],
+.cs-plain-form input[type="email"],
+.cs-plain-form textarea {
+	width: 50%;
+	float: left;
+	height: 48px;
+	font-size: 14px;
+	color:#b8b8b8;
+	font-weight: 300;
+	padding: 0 20px;
+	border: 1px solid #dddddd;
+}
+.cs-plain-form .textaera-sec {
+    padding-left: 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+}
+.cs-plain-form .textaera-sec textarea {
+	width: 100%;
+	float: left;
+	resize: none;
+	height: 165px;
+	padding: 10px 20px;
+	border: 1px solid #dddddd;
+} 
+
 /* Footer Start */
 #footer-sec{
 	background: #6c7874;
