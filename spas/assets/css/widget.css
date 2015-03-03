@@ -16,7 +16,7 @@
 	text-transform: uppercase;
 	margin-bottom: 0px;
 }
-.page-sidebar .widget ul li {
+.widget ul li {
 	list-style: none;
 	font-size: 14px;
 	color: #333333;
@@ -28,7 +28,7 @@
 	font-weight: 500;
 	line-height: 28px;
 }
-.page-sidebar .widget ul li a {
+.widget ul li a {
 	font-size: 14px;
 	float: left;
 	color: #333333;
@@ -40,16 +40,16 @@
 .widget_tag_cloud .tagcloud a:hover{
 	color: #fff;
 }
-.page-sidebar .widget time{
+.widget time{
 	font-size: 12px;
 	color: #999;
 	font-weight: 300;
 }
-.page-sidebar .widget time i {margin: 0 5px 0 0;}
+.widget time i {margin: 0 5px 0 0;}
 
 /* Widget Recent Blog post Style */
-.widget.recentblog_post ul li h6 {
-	font-weight: 500;
+.widget.recentblog_post ul li h6 a {
+	font-weight: 400;
 	margin-bottom: 0px;
 }
 .widget.recentblog_post ul li{
@@ -318,6 +318,7 @@
 	text-transform: uppercase;
 	margin-bottom: 0px;
 	line-height: 18px;
+	font-weight: 400;
 }
 .cs-price-sec p {
 	font-size: 12px;
@@ -410,6 +411,7 @@
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #333;
+	font-weight: 400;
 }
 .widget_text ul li i{
 	margin: 0 8px 0 0;

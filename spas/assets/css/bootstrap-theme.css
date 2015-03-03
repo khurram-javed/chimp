@@ -482,7 +482,7 @@
 .widget_archive ul li a,
 .widget_pages ul li a,
 .widget_meta ul li a,
-/* widget */.widget ul li a, .widget ul li, .widget ul li i, .tagcloud a,
+/* widget */.widget ul li a, .widget ul li, .widget ul li i, .tagcloud a, .recentblog_post ul li h6 a, .cs-widget-treatments article h6,
 /* Cs Blog */.cs-blog .flex-direction-nav a, .cs-blog article h2 a, .cs-tags ul li a, .comment-reply, .Continue-Readingbtn, .cs_directory_categories ul li span {
   -webkit-transition: all 0.3s ease-in;
      -moz-transition: all 0.3s ease-in;
@@ -491,7 +491,7 @@
           transition: all 0.3s ease-in;
 }
 /* Cs Blog */.cs-blog h4 a, .cs-post-options li, .cs-post-options li a, .cs-blog  h2 a, .cs-pagination ul li, .cs-pagination ul li a, .cs-tags ul li a,
-/* Cs team */.cs-team figure figcaption, .cs-team .cs-social-media ul li a, .cs-team .cs-social-media {
+/* Cs team */.cs-team figure figcaption, .cs-team .cs-social-media ul li a, .cs-team .cs-social-media, .cs-post-pagination article a, .cs-social-media, .cs-post-pagination article a i {
   -webkit-transition: all 0.3s ease-in;
      -moz-transition: all 0.3s ease-in;
       -ms-transition: all 0.3s ease-in;
@@ -504,3 +504,7 @@
 {
   margin: 0px;
 }
+.cs-partner .cs-carousel-partner li{
+  border-left: 1px solid #e5e5e5 !important;
+}
+ 
