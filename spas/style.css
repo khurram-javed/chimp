@@ -2699,3 +2699,52 @@ blockquote:before {
 	text-align: center;
 }
 #copyright p a{ color: #fff; }
+/* Price Block*/
+.cs-info-block{
+	position: absolute;
+	left: 0;
+	bottom:0;
+	width: 100%;
+	z-index: 999;
+}
+.cs-info-block .cs-price-block{
+	background: #000;
+	width: 200px;
+	float: right;
+	padding: 20px 0 0;
+}
+.cs-info-block .title{
+	font-style: italic;
+	color: #2c2d27;
+	font-weight: 400;
+	display: block;
+	padding: 0 20px;
+}
+.cs-info-block .info{
+	color: #fff;
+	display: block;
+	font-size:16px;
+	line-height: 19px;
+	overflow: hidden;
+	padding: 0 20px;
+}
+.cs-info-block .info span{ float: right;}
+.cs-info-block .discount{
+	display: block;
+	color: #2c2d27;
+	display: block;
+	padding: 0 20px 20px;
+}
+.cs-info-block .cs-btn-share{
+	display: block;
+	background: #262722;
+	line-height: 37px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #999;
+}
+.cs-info-block .cs-btn-share i{
+	display: inline-block;
+	vertical-align: middle;
+	margin: -3px 5px 0 0;
+}
