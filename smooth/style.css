@@ -41,6 +41,7 @@ h5 {font-size: 26px;}
 h6 {font-size: 18px;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: #000;}
 p a {color: #000000;}
+.container{width:960px;}
 /* Paragraph Typo */
 p { margin-bottom: 10px; font-size: 14px; line-height: 22px !important; }
 a { color: #000000; text-decoration: none; outline: none !important; }
@@ -220,3 +221,41 @@ address {font-style: italic;}
 	padding: 40px 0 0 0;
 }
 /* Default Gallery */
+/* Main Navigation */
+.cs-main-nav{
+	background: #3f3d53;
+	-webkit-box-shadow: 0 0 10px 0 #000;
+	box-shadow: 0 0 10px 0 #000;
+}
+.navigation{
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	
+}
+.navigation>ul:after{
+	display: block;
+	clear: both;
+	content: '';
+}
+.navigation>ul>li:first-child{
+	border-left:1px solid rgba(255,255,255,0.2);
+}
+.navigation>ul>li{
+	display: inline-block;
+	vertical-align: middle;
+	list-style: none;
+	margin:0 -3px 0 0 ;
+}
+.navigation>ul>li>a{
+	padding:0 29px;
+	line-height: 43px;
+	color: #fff;
+	display: block;
+	border-left:1px solid rgba(0,0,0,0.2);
+	border-right:1px solid rgba(255,255,255,0.2);
+}
+.navigation>ul>li:hover>a{
+	background: #1f1e29;
+	border-top:1px solid #bf8c4a;
+}
