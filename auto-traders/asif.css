@@ -1,0 +1,672 @@
+/*  Blog Grid Style */
+.blog-grid .flexslider {
+	width: 100%;
+	float: left;
+	padding: 0 18px 0 8px;
+}
+.home .cs-holder .cs-section-title {
+	padding-top: 0;
+	margin: 0;
+}
+.home .cs-holder .cs-section-title h4 {
+	padding: 10px 0;
+	margin: 0;
+}
+.cs-section-title .view-full-btn {
+	float: right;
+	font-size: 12px;
+	color: #999;
+	padding: 15px 0 15px 15px;
+	border-left: 1px solid #f2f2f2;
+}
+.home .blog-grid .cs-section-title .view-full-btn,
+.home .cs_shop_wrap .cs-section-title .view-full-btn {
+	padding: 15px 85px 15px 15px;
+}
+.cs-section-title .view-full-btn i {
+	color: #ccc;
+    float: left;
+    margin: 3px 5px 0;
+}
+.home .cs-blog.blog-grid article {
+	padding: 20px 2px 10px 0;
+}
+.blog-grid figure {
+	width: 100%;
+	float: left;
+	position: relative;
+	margin: 0;
+}
+.blog-grid figure figcaption {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	padding: 0 0 0 20px;
+}
+.blog-grid figure figcaption span {
+	font-size: 12px;
+	color: #fff;
+	float: left;
+	padding: 2px 10px;
+	background: rgba(0,0,0,0.5);
+}
+.blog-grid .text {
+	width: 100%;
+	float: left;
+	padding: 20px;
+	background-color: #fbfbfb;
+}
+.blog-grid .text h6 {
+	margin: 0;
+	line-height: 14px;
+	font-weight: 700;
+}
+.blog-grid .text p {
+	display: inline;
+	margin: 0;
+}
+.blog-grid .text .read-more {
+    background-color: #fff;
+    display: inline-block;
+    float: none;
+    font-size: 11px;
+    padding: 0;
+    text-shadow: inherit;
+	font-weight: 700;
+}
+.blog-grid .text .read-more:hover{ background: none !important; }
+.cs-blog.blog-grid .post-options {
+	background-color: inherit;
+    border-radius: 0;
+    float: left;
+    margin: 0 0 10px;
+    padding: 0;
+    width: 100%;
+}
+.blog-grid article:hover .text {
+	box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+.cs-blog.blog-grid .flex-direction-nav,
+.cs_shop_wrap .flex-direction-nav {
+	background-color: inherit;
+    height: 0;
+    top: -6px;
+	right: 20px;
+}
+.cs-blog.blog-grid .flex-direction-nav a,
+.cs_shop_wrap .flex-direction-nav a {
+	background-color: #fff;
+	color: #262626;
+	border-left: 1px solid #f2f2f2;
+	height: 50px;
+    line-height: 50px;
+	top: -45px; 
+	margin: 0;
+	width: 45px;
+	opacity: 1;
+	text-align: center;
+}
+.cs-blog.blog-grid .flex-direction-nav li,
+.cs_shop_wrap .flex-direction-nav li {
+	width: auto;
+}
+.cs-blog.blog-grid .flex-direction-nav .flex-prev,
+.cs_shop_wrap .flex-direction-nav .flex-prev {
+    left: 37px;
+}
+.cs-blog.blog-grid .flex-direction-nav .flex-next,
+.cs_shop_wrap .flex-direction-nav .flex-next {
+    right: -36px;
+}
+.advertisement-banner.col-md-12 {
+	margin-bottom: 10px;
+}
+
+/*  Owl Controls Style */
+.owl-controls {
+    position: absolute;
+    right: 15px;
+    top: -52px;
+}
+.owl-controls .owl-prev, .owl-controls .owl-next {
+    border-left: 1px solid #f2f2f2;
+    float: left;
+    padding: 16px 20px 12px 15px;
+}
+.owl-controls .owl-next {
+	padding-right: 0;
+	padding-left: 20px
+}
+.cs-blog .cs-carousel.owl-loaded {
+	float: left;
+	padding: 0 20px;
+}
+/*  Owl Controls Style */
+
+/*  Agent Grid Style */
+.home .grid_listing {
+	padding: 0 20px 0 0;
+}
+.home .grid_listing article {
+	padding: 20px 0 0 20px;
+}
+
+/*  Home Style */
+
+/*  Defoult Blog Style */
+
+.cs-blog, .cs-blog .main-thumb, .cs-blog .bloginfo-sec {
+	float: left;
+	width: 100%;
+}
+.cs-blog .main-thumb {
+	margin-bottom: 25px;
+}
+.cs-blog article {
+	float: left;
+	background-color: #fff;
+	padding: 20px 20px 35px 20px;
+	margin: 0 0 10px 0;
+}
+.cs-blog article:last-child {
+	margin-bottom: 20px;
+}
+
+/* Time Style */
+
+.date-time {
+	float: left;
+	width: 80px;
+	text-align: center;
+}
+.date-time time {
+	font-size: 12px;
+	color: #aaaaaa;
+	display: inline-block;
+	text-transform: uppercase;
+}
+.date-time time small {
+	font-size: 40px;
+	color: #ff600a;
+	display: block;
+	line-height: 30px;
+	font-weight: bold;
+	padding: 2px 0;
+}
+.cs-blog.blog-lrg .post-options, .post-option-panel .post-options{
+	float: left;
+	margin:0 0px 17px 0;
+}
+.cs-blog.blog-lrg .post-options li, .post-option-panel .post-options li {
+	padding: 2px 16px;
+	background-color: #fafafa;
+	border-radius: 24px;
+	margin:0 8px 0px 0;
+} 
+.cs-blog.blog-lrg .post-options li i, .post-option-panel .post-options li i {
+	margin-right: 6px;
+	/*padding: 8px 0;*/
+}
+.comments-btn {
+	font-size: 12px;
+	color: #999999;
+	float: left;
+	font-weight: 400;
+}
+.cs-blog.blog-lrg .bloginfo-sec .date-time ~ .blog-text {
+	padding: 0 0 0 92px;
+}
+.cs-blog .bloginfo-sec p {
+	margin-bottom: 20px; 
+	display: inline-block;
+}
+.post-options li, .post-option-panel .post-options li {
+	float: left;
+	list-style: none;
+	font-size: 12px;
+	color: #ccc;
+	font-weight: 400;
+	margin: 0 8px 0 0;
+}
+.cs-blog .post-options li a, .post-option-panel .post-options li a {
+	color: #999999;
+	font-size: 12px;
+}
+.read-more {
+	float: left;
+	padding: 6px 24px;
+	background-color: #cccccc;
+	font-size: 14px;
+	color: #fff;
+	text-shadow: 0px 2px #999;
+}
+.cs-blog .cs-tags li {
+	list-style: none;
+	float: left;
+	line-height: 24px;
+	margin-left: 10px;
+}
+.cs-blog .cs-tags li:first-child {
+	margin-left: 0px;
+}
+.cs-blog .cs-tags li a {
+	font-size: 12px;
+	color: #ccc;
+	font-weight: 400;
+	font-style: italic;
+}
+.cs-blog .cs-tags li i {
+	float: left;
+	margin: 5px 5px 0;
+    background:none !important; 
+}
+.cs-blog .cs-tags {
+	float: right;
+	margin: 7px 0 0 0;
+	width: auto;
+}
+
+/*  Blog Detail  */
+
+.blog-editor figure.detailpost {
+	margin: 0px;
+	float: left;
+	padding: 20px 20px 10px 20px;
+	background-color: #fff;
+	width: 100%;
+}
+.blog-editor .date-time{
+	width: 50px;
+}
+.date-time ~ .post-option-panel {
+	padding: 0 0 0 70px;
+}
+
+.blog-editor .rich_editor_text p{
+	display: inline-block;
+	margin-bottom: 25px;
+}
+.tablerow {
+	display: table;
+	background-color: #fff;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+/*  Blockquote  */
+
+blockquote {
+    color: #bbbbbb;
+    font-size: 20px;
+    font-style: italic;
+    margin: 0 0 25px;
+    line-height: 26px;
+    padding: 26px 0;
+    border-left: none;
+    border-top: 1px dashed #ededed;
+	border-bottom: 1px dashed #ededed;
+	position: relative;
+}
+blockquote:before{
+    content: "\e9fe";
+    font-family: "icomoon";
+    font-size: 30px;
+    left: -50px;
+    position: absolute;
+    top: 30px;
+    transform: rotate(180deg);
+}
+
+/* SocialMedia Style */
+
+.blog-editor .socialmedia {
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+}
+.socialmedia > h6 {
+	line-height: 30px;
+	margin-bottom: 0px;
+}
+.socialmedia ul li {
+	float:left;
+	margin: 0px 7px 0px 0px;
+	list-style: none;
+}
+.detail-post .socialmedia ul li a {
+	width: 30px;
+	height: 30px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 17px;
+	float: left;
+	background-color: #000;
+	line-height: 34px;
+}
+.socialmedia ul li a i {
+	color:#FFF;
+}
+
+/* Socialmedia Style */
+
+/*.detail-post .socialmedia a[data-original-title="Facebook"] {
+	background-color: #13497b;
+}
+.detail-post .socialmedia a[data-original-title="twitter"] {
+	background-color: #03b4ea;
+}
+.detail-post .socialmedia a[data-original-title="google-plus"] {
+	background-color: #e72f2f;
+}
+.detail-post .socialmedia a[data-original-title="instagram"] {
+	background-color: #2272bb;
+}
+.detail-post .socialmedia a[data-original-title="youtube-play"] {
+	background-color: #ff0000;
+}
+.detail-post .socialmedia a[data-original-title="fa-skype"] {
+	background-color: #03b4ea;
+}
+*/
+.detail-post .socialmedia a[data-original-title="envelope"] {
+	background-color: #ffc20a;
+}
+
+.detail-post .socialmedia a span {background: none;}
+.at_PinItButton:before { content: "\f0d2"; font-family: FontAwesome; }
+.detail-post .socialmedia a[data-original-title="Facebook"] {background-color: #13497b;}
+.detail-post .socialmedia a[data-original-title="twitter"] {background-color: #03b4ea;}
+.detail-post .socialmedia a[data-original-title="google-plus"] {background-color: #e72f2f;}
+.detail-post .socialmedia a[data-original-title="youtube-play"],
+.detail-post .socialmedia a[data-original-title="Youtube"] {background-color: #ff0000;}
+.detail-post .socialmedia a[data-original-title="Tumblr"] {background-color: #1b2f74;}
+.detail-post .socialmedia a[data-original-title="Instagram"] {background-color: #2272bb;}
+.detail-post .socialmedia a[data-original-title="linkedin"] {background-color: #2b459e;}
+.detail-post .socialmedia a[data-original-title="stumbleupon"] {background-color: #f36100;}
+.detail-post .socialmedia a[data-original-title="Dribbble"] {background-color: #E25288;}
+.detail-post .socialmedia a[data-original-title="Pinterest"] {background-color: #DA323A;}
+.detail-post .socialmedia a.btnshare {background-color: #F36D50;}
+
+/* Cs Tags Style */
+
+.blog-editor .cs-tags {
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.blog-editor .cs-tags ul li {
+	float: left;
+	list-style: none;
+	padding: 2px 16px;
+	border-radius: 24px;
+	background-color: #fafafa;
+	margin-left: 10px;
+}
+.blog-editor .cs-tags ul li:first-child {margin-left: 0px;}
+.blog-editor .cs-tags i {
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	color: #fff;
+	text-align: center;
+	border-radius: 30px;
+	margin: 3px 7px 0 0;
+	float: left;
+}
+.blog-editor .cs-tags ul {
+	display: inline-block;
+}
+.blog-editor .cs-tags ul li a{
+	font-size: 12px;
+	color: #cccccc;
+	font-weight: 400;
+	font-style: italic;
+}
+
+/* Cs post Sharebtn */
+
+.cs-post-sharebtn {
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	margin: 0 0 10px 0;
+}
+.cs-post-sharebtn .cs-table {
+    display: table;
+    float: left;
+    width: 100%;
+}
+.cs-post-sharebtn .cs-row {
+    display: table-row;
+}
+.cs-post-sharebtn .cs-cell {
+    display: table-cell;
+    padding: 28px 0 30px;
+    vertical-align: top;
+    width: 50%;
+    text-align: center;
+	position: relative;
+}
+.cs-post-sharebtn .cs-cell h5 {
+	margin: 0;
+	font-weight: 700;
+}
+.cs-post-sharebtn .cs-cell time span {
+	color: #ccc;
+	text-transform: initial;
+}
+.cs-post-sharebtn .cs-cell time {
+	font-size: 11px;
+	color: #aaaaaa;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.cs-post-sharebtn .cs-cell.left-btn {
+    border-right: 1px solid #f6f6f6;
+}
+.cs-post-sharebtn article .post-np {
+	position: absolute;
+	top: 50%;
+	background-color: #e5e5e5;
+	padding: 5px 2px 0;
+	font-size: 18px;
+	color: #fff;
+	margin: -20px 0 0 0;
+}
+.cs-post-sharebtn .prev .post-np{
+	left: 0px;
+}
+.cs-post-sharebtn .next .post-np{
+	right: 0px;
+}
+.advertisement-banner {
+	text-align:center;
+	margin: 0 0 10px;
+}
+
+/* Cs Comments Style */
+
+#comment {
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	margin: 0 12px 10px 0;
+	overflow: hidden;
+}
+#comment .thumblist {
+	width: 100%;
+	float: left;
+}
+#comment > ul {
+    float: left;
+    padding: 0 20px;
+    width: 100%;
+}
+#comment .cs-section-title h4 {
+	position: relative;
+	padding-bottom: 15px;
+	margin-bottom: 0px;
+}
+#comment .cs-section-title {
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 35px;
+}
+#comment li .thumblist ul li {
+	border-bottom: 1px dotted #e2e2e2;
+	width: 100%;
+	float: left;
+}
+#comment li:last-child .thumblist ul li {
+	border-bottom: none;
+	padding: 0;
+}
+#comment li .thumblist ul li ul.children li {
+	border-bottom: none;
+	padding: 0;
+}
+#comment ul li {
+	list-style: none;
+}
+#comment .thumblist li figure {
+	float: left;
+	width: 70px;
+	height: 70px;
+	margin: 0 0px 0 0;
+}
+#comment .thumblist li figure img {
+	border-radius: 100%;
+}
+#comment .thumblist li figure ~ .text-box{
+	margin-left: 95px;
+}
+#comment .thumblist li .text-box {
+	margin-bottom: 30px;
+}
+#comment li:last-child .thumblist ul li .text-box {
+	margin-bottom: 0;
+}
+#comment .thumblist li .text-box p {
+	margin-bottom: 0px;
+}
+#comment .thumblist ul {
+	margin: 0;
+	padding: 0px;
+}
+#comment li .thumblist ul li ul.children li .thumblist ul li {
+	margin: 0;
+}
+.thumblist li time {
+	color: #aaaaaa;
+	font-size: 12px;
+	text-transform: uppercase;
+	display: inline-block;
+	font-weight: 400;
+	line-height: 1;
+	margin-bottom: 10px;
+}
+.thumblist li h6 {
+	margin-bottom: 0px;
+	line-height: 1;
+}
+.thumblist li a.comment-reply {
+	font-size: 11px;
+	text-transform: uppercase;
+	display: inline-block;
+	font-weight: bold;
+}
+#comment .thumblist ul li .children {
+	margin-left: 85px;
+}
+#comment .children li {
+	border-bottom: none;
+}
+#comment .children li {
+	width: 100%;
+	float: left;
+}
+#comment  li .thumblist ul li {
+	margin: 0 0 30px 0;
+}
+#comment .children  li .thumblist {
+	padding: 27px;
+	background-color: #fafafa;
+	border-radius: 24px;
+}
+#comment .children  li {
+	margin-bottom: 12px;
+}
+#comment .children  li:last-child {
+	margin-bottom: 20px;
+}
+
+/* Cs Comments Style */
+
+.comment-respond {
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	padding: 20px;
+	overflow: hidden;
+}
+.comment-respond h4 {
+	padding: 0 0 10px 0;
+	margin-bottom: 20px;
+	position: relative;
+	border-bottom: 1px solid #e5e5e5;
+}
+.comment-form {
+	float: left;
+	width: 100%;
+}
+.comment-respond .comment-form.contact-form p.comment-form-email,
+.comment-respond .comment-form.contact-form p.comment-form-author{
+	width:50%;
+}
+.comment-respond .comment-form p.comment-form-author, .comment-respond .comment-form p.comment-form-email, .comment-respond .comment-form p.comment-form-website {
+	float: left;
+	width: 33.33%;
+}
+.comment-respond .comment-form p.comment-form-email, .comment-respond .comment-form p.comment-form-website {
+	padding-left: 10px;
+}
+.comment-respond .comment-form p.comment-form-comment textarea {
+	width: 100%;
+	float: left;
+	height: 170px;
+	padding: 12px 10px 10px 42px;
+	margin-bottom: 10px;
+}
+.comment-respond .comment-form p label {
+	position: relative;
+	margin: 0px;
+}
+.comment-respond .comment-form p label i {
+    color: #cbcbcb;
+    font-size: 16px;
+    left: 16px;
+    position: absolute;
+    top: 16px;
+}
+.comment-respond .comment-form p input[type="text"]{
+	height: 50px;
+	color: #999;
+}
+.comment-respond .comment-form.contact-form p.comment-form-subject input[type="text"],
+.comment-respond .comment-form p.comment-form-author input[type="text"], 
+.comment-respond .comment-form p.comment-form-email input[type="text"], 
+.comment-respond .comment-form p.comment-form-website input[type="text"], 
+.comment-respond .comment-form p.comment-form-comment textarea{
+	width: 100%;
+	float: left;
+	padding-left: 42px;
+	box-shadow: 0 0 2px 1px #f0f7fe;
+}
+.comment-respond .comment-form p.form-submit input[type="submit"]{
+	float: left;
+	font-size: 18px;
+	color: #ffffff;
+	padding: 8px 20px;
+	border: none;
+	text-shadow: 0 1px #666;
+}
