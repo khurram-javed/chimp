@@ -1,25 +1,23 @@
 ﻿/* ThemeColor Setup */
 
-.cscolor,.cs-hovercolor:hover {
-	color: #709341 !important;
+.cscolor,.cs-hovercolor:hover, .widget>ul>li, .widget>ul>li>a, .widget_latest_post .infotext h6, .widget_latest_post .infotext h6 a, .pagination ul li:hover a, .pagination ul li a.active,
+/* Blog Setup */.cs-blog article:hover h1 a,  .cs-blog-masnery article:hover h3 a {
+	color: #3f3d53 !important;
 }
-.cs-bgcolor,.csbg-color,.csbg-hovercolor:hover, .cs-read-more, .navigation > ul > li:hover::before, .sub-dropdown > li::before, .cs-treatment .cs-nav-tabs li.active:after, .cs-price-table .sigun_up, .cs-plain-form input[type="submit"],
-/* Cs Blog */.cs-blog .flex-direction-nav a:hover, .cs-blog .flex-control-paging li a.flex-active, .blog-editor .flex-control-paging li a.flex-active, .cs-blog .flex-control-paging li:hover a, .blog-editor .cs-tags i, .Continue-Readingbtn:hover,
-/* widget */.widget_calendar caption, .widget_search form label input[type="submit"], .tagcloud a:hover, .cs-form-element input[type="submit"], .icon-input a, .cs_directory_categories ul li:hover span, .cs-widget-testimonial .flex-control-paging li a.flex-active,
-.cs-post-pagination article a:hover i {
-	background-color: #709341 !important;
+.cs-bgcolor,.csbg-color,.csbg-hovercolor:hover, .widget>ul>li:hover, .widget_calendar caption, .page-sidebar .widget.cs-widget-contact, .cs-tags ul li:hover a, .share-post{
+	background-color: #3f3d53 !important;
 }
 
-.csborder-color,.csborder-hovercolor:hover, .cs-treatment .cs-nav-tabs li.active:before {
-	border-color: #709341 !important;
+.csborder-color,.csborder-hovercolor:hover {
+	border-color: #3f3d53 !important;
 }
 
 
 /* Header Color */
 
 .top-bar a { color: #cccccc !important; }
-#footer-sec i{ color:#55acee; }
-#footer-sec strong,#footer-sec h1,#footer-sec h2,#footer-sec h3,#footer-sec h4,#footer-sec h5,#footer-sec h6 { color: #ffffff; }
+#footer-sec i{ color: #3f3d53; }
+#footer-sec strong,#footer-sec h1,#footer-sec h2,#footer-sec h3,#footer-sec h4,#footer-sec h5,#footer-sec h6 { color: #3f3d53; }
 .Continue-Readingbtn:hover{
 	color: #fff !important; 
 }
