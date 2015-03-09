@@ -1,0 +1,12 @@
+﻿/* ThemeColor Setup */
+
+.cscolor,.cs-hovercolor:hover{
+	color: #005394 !important;
+}
+.cs-bgcolor,.csbg-color,.csbg-hovercolor:hover{
+	background-color: #005394 !important;
+}
+
+.csborder-color,.csborder-hovercolor:hover{
+	border-color: #005394 !important;
+}
