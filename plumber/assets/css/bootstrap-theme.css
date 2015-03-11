@@ -490,14 +490,6 @@
        -o-transition: all 0.3s ease-in;
           transition: all 0.3s ease-in;
 }
-/* Cs Blog */.cs-blog h4 a, .cs-post-options li, .cs-post-options li a, .cs-blog  h2 a, .cs-pagination ul li, .cs-pagination ul li a, .cs-tags ul li a,
-/* Cs team */.cs-team figure figcaption, .cs-team .cs-social-media ul li a, .cs-team .cs-social-media, .cs-post-pagination article a, .cs-social-media, .cs-post-pagination article a i {
-  -webkit-transition: all 0.3s ease-in;
-     -moz-transition: all 0.3s ease-in;
-      -ms-transition: all 0.3s ease-in;
-       -o-transition: all 0.3s ease-in;
-          transition: all 0.3s ease-in;
-}
 .top-nav ul li:last-child:before {
   display: none;
 }
@@ -507,4 +499,24 @@
 .cs-partner .cs-carousel-partner li{
   border-left: 1px solid #e5e5e5 !important;
 }
- 
+/* px Projects */
+.px-portfolio article, .px-portfolio figure figcaption, .px-portfolio figure figcaption a, .px-portfolio .px-text .px-icons-style, .px-portfolio .px-text h4, .px-portfolio .px-text span, .px-portfolio article .px-text h4 a, .px-portfolio article figure, .px-portfolio article:hover figure{
+   -webkit-transition: all 0.3s ease-in;
+     -moz-transition: all 0.3s ease-in;
+      -ms-transition: all 0.3s ease-in;
+       -o-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+ }
+
+/* px Projects */.px-portfolio figure figcaption, .px-portfolio figure figcaption a, .px-portfolio-grid .px-text .px-icons-style, .px-portfolio-grid .px-text h4, .px-portfolio-grid .px-text span, .px-portfolio-grid article .px-text h4 a, .px-portfolio-grid article figure, .px-portfolio-grid article:hover figure,
+/* px Blog */.px-blog article h2 a, .px-blog article figure:before, .px-blog article:hover figure:before, .px-post-pagination article h3 a, .px-blog-grid article h4 a, .px-pagination ul li a, .px-related-post .px-blog article h5 a,
+/* Widget style */.widget ul li, .widget ul li a, .widget_categories ul li:before {
+   -webkit-transition: all 0.3s ease-in;
+     -moz-transition: all 0.3s ease-in;
+      -ms-transition: all 0.3s ease-in;
+       -o-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+ }
+ #px-comments .thumblist header h5{
+  line-height: 24px!important;
+}

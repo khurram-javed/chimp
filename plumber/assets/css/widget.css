@@ -1,39 +1,53 @@
 .page-sidebar .widget{
-	margin-bottom: 12px;
+	margin-bottom: 30px;
 	float: left;
 	width: 100%;
-	box-shadow: 0 0 4px 0px rgba(0,0,0,0.1);
-	background-color: #fff;
-	border-radius: 6px;
-	padding: 0 0 10px 0;
 }
 .page-sidebar .widget-section-title {
-	padding: 15px 18px;
-	border-bottom: 1px solid #e8e8e8;
+	padding: 0 0 13px 0;
+	border-bottom: 1px solid #f1f1f1;
 	margin-bottom: 15px;
+	position: relative;
 }
-.page-sidebar .widget-section-title h2 {
-	text-transform: uppercase;
+.page-sidebar .widget-section-title:before{
+	content: "";
+	left: 0px;
+	bottom: -2px;
+	width: 35px;
+	height: 2px;
+	background-color: #ff9310;
+	position: absolute;
+}
+.page-sidebar .widget-section-title h5 {
 	margin-bottom: 0px;
+	font-weight: bold;
 }
 .widget ul li {
 	list-style: none;
 	font-size: 14px;
-	color: #333333;
+	color: #444444;
 	position: relative;
 	float: left;
 	width: 100%;
-	padding: 0 18px;
-	text-transform: uppercase;
-	font-weight: 500;
+	font-weight: 400;
 	line-height: 28px;
 }
+.page-sidebar .widget.px-widget-contact p, .page-sidebar .widget.px-widget-contact ul li{
+	 background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+	 font-size: 12px;
+	 color: #fff;
+}
+.page-sidebar .widget.px-widget-contact ul li a{float: right; font-size: 12px;}
 .widget ul li a {
 	font-size: 14px;
 	float: left;
-	color: #333333;
-	font-weight: 500;
+	color: #444444;
+	font-weight: 400;
 }
+.page-sidebar .widget.widget_timing ul{background:none; padding: 0px; }
+.page-sidebar .widget.widget_timing ul li time{ color: #999; width: 100px;}
+.page-sidebar .widget.widget_timing ul .days{color: #555555; font-weight: bold;}
+.page-sidebar .widget.widget_timing ul .days:after {display: block;  color: rgba(0, 0, 0, 0.1); line-height: 11px; letter-spacing: -1px; right: 3px;}
 .page-sidebar .widget select option {
 	padding: 5px 12px;
 }
@@ -46,55 +60,198 @@
 	font-weight: 300;
 }
 .widget time i {margin: 0 5px 0 0;}
+/* Wdiget FAQ Style */
+.widget_faq li:first-child{ border-top:none;} 
+.widget_faq li{ 
+	position: relative; 
+	border-top: 1px dotted #e2e2e2;
+	line-height: 17px !important;
+	padding:8px 0 8px 18px;
+}
+.widget_faq li:after{
+	position: absolute;
+	left: 0;
+	top:12px;
+	content: '\eab1';
+	font-family: 'icomoon';
+	background-color: #6d6d6d;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 12px;
+    height: 11px;
+    line-height: 11px;
+    width: 11px;
+}
 
+/* Widget Categories Style */
+.widget_meta>ul>li,
+.widget_pages>ul>li,
+.widget_archive>ul>li,
+.widget_nav_menu>ul>li,
+.widget_categories>ul>li {
+	border-bottom: 1px solid #eeeeee;
+	text-align: right;
+	padding: 6px 15px;
+	border-left: 3px solid #ff9310;
+}
+.widget_meta>ul,
+.widget_pages>ul,
+.widget_archive>ul,
+.widget_nav_menu>ul,
+.widget_categories>ul {
+	border: 1px solid #d3e5eb;
+	float: left;
+	width: 100%;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.1);
+}
+.widget_meta>ul>li>a i,
+.widget_pages>ul>li>a i,
+.widget_archive>ul>li>a i,
+.widget_nav_menu>ul>li>a i,
+.widget_nav_menu>ul>li>a i {
+	margin-right: 8px;
+	color: #cccccc;
+}
+.widget_meta>ul>li>a,
+.widget_pages>ul>li>a,
+.widget_archive>ul>li>a,
+.widget_nav_menu>ul>li>a,
+.widget_categories>ul>li>a{
+	float: left;
+}
+.widget_meta>ul>li:hover,
+.widget_pages>ul>li:hover,
+.widget_archive>ul>li:hover,
+.widget_nav_menu>ul>li:hover,
+.widget_categories>ul>li:hover{
+	padding-left: 24px;
+	color: #fff;
+}
+.widget_meta>ul>li:before,
+.widget_pages>ul>li:before,
+.widget_archive>ul>li:before,
+.widget_nav_menu>ul>li:before,
+.widget_categories>ul>li:before{
+	content: "";
+	position: absolute;
+	left: 0px;
+	top: 0;
+	height: 98.5%;
+	width: 9px;
+	background-color: #ff9310;
+	opacity: 0;
+	visibility: hidden;
+}
+.widget_meta>ul>li:hover:before,
+.widget_pages>ul>li:hover:before,
+.widget_archive>ul>li:hover:before,
+.widget_nav_menu>ul>li:hover:before,
+.widget_categories>ul>li:hover:before{
+	opacity: 1;
+	visibility: visible;
+}
+.widget_meta>ul>li:hover a,
+.widget_pages>ul>li:hover a,
+.widget_archive>ul>li:hover a,
+.widget_nav_menu>ul>li:hover a,
+.widget_categories>ul>li:hover a{
+	color: #fff;
+}
+.widget_nav_menu>ul>li ul li,
+.widget_pages>ul>li ul li,
+.widget_categories>ul>li ul li{ padding-left: 18px;}
+/* Widget Calendar Style */
+#calendar_wrap {
+	float: left;
+	width: 100%;
+	padding: 0px 12px 5px ;
+}
+#wp-calendar { margin: 0px; }
+.widget_calendar caption {
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+}
+.widget_calendar tfoot tr td {
+	border: none;
+	padding: 0px;
+}
+.widget_calendar thead tr th,.widget_calendar tbody tr td {
+	padding-left: 0px;
+	text-align: center;
+}
 /* Widget Recent Blog post Style */
 .widget.recentblog_post ul li h6 a {
-	font-weight: 400;
 	margin-bottom: 0px;
+	font-weight: bold;
+	line-height: 20px;
 }
 .widget.recentblog_post ul li{
-	padding: 0 18px 12px 18px;
-	border-bottom: 1px dotted #f1f1f1;
-	margin-bottom: 12px;
+	margin-bottom: 20px;
 }
+.widget.recentblog_post ul ul{margin-left: 0px; padding: 0px;}
 .widget.recentblog_post ul li:last-child{
 	border-bottom: none;
 	margin-bottom: 0px;
 }
-
+.widget.recentblog_post ul li .text li{
+	color: #dddddd;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 18px;
+}
+.widget.recentblog_post ul li time{
+	font-style: normal;
+	color: #dddddd;
+}
+.widget.recentblog_post ul li .text li a{font-size: 12px; color:#cccccc; text-decoration: underline; float: none; font-style: normal;}
 .widget_pages ul li, .widget_meta ul li, .widget_recent_entries ul li, .widget_nav_menu ul li, .widget_archive ul li {
 	float: left;
 	width: 100%;
 }
-.widget_categories ul li {
-	text-align: right;
-}
-.widget_nav_menu ul li a i {
-	margin-right: 8px;
-	color: #cccccc;
-}
 
 /*  Widget Rss */
 
+.page-sidebar .widget_rss ul li{
+	-webkit-box-shadow: 0 0 6px 0 rgba(0,0,0,0.4);
+box-shadow: 0 0 6px 0 rgba(0,0,0,0.4);
+padding:16px;
+margin: 0 0 20px;
+}
 .page-sidebar .widget_rss ul li a {
-    border-bottom: 1px dotted;
-    color: #b8b8b8 !important;
-    display: inline-block;
-    font-size: 12px;
+    border-bottom: 1px dotted #f1f1f1;
+    color: #333 !important;
+    font-size: 16px;
+    line-height: 22px;
     margin-bottom: 5px;
-    padding-bottom: 2px;
+    padding-bottom: 8px;
     text-transform: uppercase;
+    width: 100%;
+    float: left;
+    font-weight: bold;
+    position: relative;
+}
+.page-sidebar .widget_rss ul li a:before{
+	content: "";
+	left: 0px;
+	bottom: -2px;
+	width: 35px;
+	height: 2px;
+	background-color: #ff9310;
+	position: absolute;
 }
 .page-sidebar .widget_rss .rss-date {
-    color: #2c3239;
+    color: #444;
     float: left;
     font-size: 12px;
+    font-weight: bold;
     margin-bottom: 5px;
     text-transform: uppercase;
     width: 100%;
 }
 .page-sidebar .widget_rss .rssSummary {
 	font-size: 14px;
+	line-height: 20px;
 	color: #2c3239;
 }
 
@@ -119,7 +276,6 @@
 }
 .textwidget p strong {
     float: left;
-    font-weight: normal;
     margin-bottom: 10px;
     width: 100%;
 }
@@ -138,6 +294,7 @@
 	text-transform: uppercase;
 	margin-bottom: 4px;
 	line-height: 20px;
+	float: left;
 }
 .recentblog_post .text time{
 	color: #999;
@@ -150,28 +307,29 @@
 	margin-bottom: 0px;
 }
 /*  Widget Search */
-.widget_search .cs-search-area {
+.widget_search .px-search-area {
     float: left;
     position: relative;
     width: 100%;
 }
-.widget_search .cs-search-area input[type="text"] {
+.widget_search .px-search-area input[type="text"] {
     float: left;
     font-size: 14px;
     height: 40px;
     padding-left: 20px;
-    width: 100%;
+    width: 64%;
    color: #2c3239;
    font-weight: 400;
+   padding:10px;
 }
-.widget_search .cs-search-area label {
+.widget_search .px-search-area label {
 	position: absolute;
 	display: inline-block;
 	right: 1px;
 	top: 1px;
 	margin: 0px;
 }
-.widget_search .cs-search-area label:before {
+.widget_search .px-search-area label:before {
 	content: "\f002";
 	position: absolute;
 	left: 0px;
@@ -183,13 +341,14 @@
 	cursor: pointer;
 	display: block;
 }
-.widget_search form label input[type="submit"] {
-	width: 42px;
+.widget_search form input[type="submit"] {
 	text-align: center;
-	height: 38px;
 	border: none;
-	text-indent: -999px;
 	border-radius: 0;
+	color: #fff;
+	float: right;
+	height: 40px;
+	width: 80px;
 }
 /*  Widget Calender */
 #wp-calendar {
@@ -207,7 +366,7 @@
 .widget_calendar thead tr th {
 	font-size: 14px;
 	font-weight: 400;
-	color: #2c3239;
+	color: #fff;
 }
 .widget_calendar table > thead > tr > th, .widget_calendar table > tbody > tr > th, .widget_calendar table > tfoot > tr > th, .widget_calendar table > thead > tr > td, .widget_calendar table > tbody > tr > td, table > tfoot > tr > td{
 	padding: 0 5px;
@@ -248,31 +407,34 @@
 /*  Widget Twitter */
 .twitter_widget article {
 	display: block;
-	margin-bottom: 15px;
-	padding: 0 18px 15px 18px;
-	border-bottom: 1px dotted #f1f1f1;
+	margin-bottom: 10px;
+	padding: 0 0px 18px 0px;
+	border-bottom: 1px dotted #e2e2e2;
 }
 .twitter_widget article:last-child{
 	border-bottom: none;
 	margin-bottom: 0px;
+	padding: 0px;
 }
 .twitter_widget article P {
 	font-size: 14px;
-	font-weight: 300;
-	margin-bottom: 0px;
+	font-weight: 400;
+	margin-bottom: 3px;
 	color: #333333;
+	line-height: 18px !important;
 }
 .twitter_widget article .text span, .twitter_widget article .text a {
 	font-weight: 400;
-	color: #cdcdcd;
 	font-size: 12px;
 }
+.twitter_widget article .text span{color: #cdcdcd;}
 .twitter_widget article .text a {
 	color: #999;
 }
 .twitter_widget article .text i {
 	margin: 6px 6px 0 0;
 	float: left;
+	color: #ff9310;
 }
 .widget .textwidget p {
 	color: #2c3239;
@@ -280,19 +442,18 @@
 /*  Widget Gallery */
 .widget.widget-gallery .gallery-list li {
 	float: left;
-	width: 30.7%;
-	margin: 0 3px 6px 3px;
+	width: 32.8%;
+	margin: 0 0px 1px 1px;
 	padding: 0px;
 	position: relative;
 }
 .widget.widget-gallery .gallery-list {
-	padding: 0 18px;
-	margin-left: -3px;
+	margin-left: -1px;
 	float: left;
-	width: 102%;
+	width: 100%;
 }
 .widget.widget-gallery .gallery-list li img {
-	width: 70px;
+	width: 100%;
 	float: left;
 }
 /*  Widget  Treatments */
@@ -421,4 +582,6 @@
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 24px;
+	color: #444;
 }
+.widget.widget_text strong, .widget.widget_text p{ color: #444 !important; }

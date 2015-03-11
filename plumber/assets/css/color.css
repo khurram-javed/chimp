@@ -1,12 +1,25 @@
 ﻿/* ThemeColor Setup */
 
-.cscolor,.cs-hovercolor:hover{
+.pxcolor, .px-hovercolor:hover, .px-head-info ul li,.px-project-details .px-project-pagination li:hover a, .px-head-info ul li a, .px-portfolio-medium h1 a, 
+.px-portfolio-masonary article:hover .px-text h4 a, .px-portfolio-grid article:hover .px-text h4 a, .px-portfolio-plain article:hover .px-text h4 a, .px-project-list .px-text h5 a,
+/* Blog Style */.px-Portfolio-grid article:hover .px-text h4 a, .px-blog span, .px-blog article:hover h2 a, .px-post-panel span, .px-post-panel .px-tags ul li a, .px-post-pagination article:hover h3 a, .px-blog-grid article:hover h4 a, .px-pagination ul li a.active, .px-pagination ul li a:hover,
+.px-related-post .px-blog article:hover h5 a,/* widget Style */ .twitter_widget article P a, .recentblog_post li:hover .text h6 a, .px-blog article:hover .px-bloginfo-sec h3 a
+{
 	color: #005394 !important;
 }
-.cs-bgcolor,.csbg-color,.csbg-hovercolor:hover{
+.px-bgcolor, .pxbg-color, .pxbg-hovercolor:hover, .navigation, .px-project-details .px-detail-head, .px-project-details .px-project-pagination .next:after,
+.px-project-details .px-project-pagination .prev:after, .px-main-filter ul li a:hover,  .px-classic-form form input[type="submit"], 
+/* widget Style */.widget_categories>ul>li:hover, .widget_nav_menu>ul>li:hover, .widget_archive>ul>li:hover, .widget_pages>ul>li:hover, .widget_meta>ul>li:hover,
+.widget_calendar caption
+{
 	background-color: #005394 !important;
 }
 
-.csborder-color,.csborder-hovercolor:hover{
+.pxborder-color,.pxborder-hovercolor:hover{
 	border-color: #005394 !important;
+}
+
+.px-blog-grid .owl-controls .owl-prev:hover,
+.px-blog-grid .owl-controls .owl-next:hover {
+	border-top-color: #005394 !important;
 }
