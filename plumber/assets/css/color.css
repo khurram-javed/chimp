@@ -23,3 +23,10 @@
 .px-blog-grid .owl-controls .owl-next:hover {
 	border-top-color: #005394 !important;
 }
+
+/* Hover Opacity Color */
+.px-portfolio-masonary figure figcaption a, .px-portfolio-grid figure figcaption a,.px-media-gallery figure figcaption > a, 
+.px-portfolio.px-portfolio-plain figure figcaption, .px-blog article .px-media figure::before
+{
+	background-color: rgba(0, 83, 148, 0.8) !important;
+}

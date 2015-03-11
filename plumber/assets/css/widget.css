@@ -164,7 +164,7 @@
 #calendar_wrap {
 	float: left;
 	width: 100%;
-	padding: 0px 12px 5px ;
+	padding: 0px 0 5px ;
 }
 #wp-calendar { margin: 0px; }
 .widget_calendar caption {
@@ -213,8 +213,8 @@
 /*  Widget Rss */
 
 .page-sidebar .widget_rss ul li{
-	-webkit-box-shadow: 0 0 6px 0 rgba(0,0,0,0.4);
-box-shadow: 0 0 6px 0 rgba(0,0,0,0.4);
+-webkit-box-shadow: 0 0 6px 0 rgba(0,0,0,0.2);
+box-shadow: 0 0 6px 0 rgba(0,0,0,0.2);
 padding:16px;
 margin: 0 0 20px;
 }
